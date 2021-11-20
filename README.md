@@ -1,37 +1,68 @@
-## Welcome to GitHub Pages
+# **Miscellaneous Templates**
 
-You can use the [editor on GitHub](https://github.com/imniladri/Miscellaneous/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Miscellaneous on [GitHub](https://github.com/imniladri/Miscellaneous/) is consists of many super cool awesome web templates.
+A repository that contains as many templates which are very daily to use!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Built](https://forthebadge.com/images/badges/built-with-love.svg)
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## **Table of Contents**
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+Preview | Code | Link
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+1. [Preloader Effects](https://imniladri.github.io/Miscellaneous/Preloader-Effects/)
 
-### Jekyll Themes
+2. [Hamburger Menus](https://imniladri.github.io/Miscellaneous/Hamburger-Menus/)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/imniladri/Miscellaneous/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+3. [Error 404 Pages](https://imniladri.github.io/Miscellaneous/Error-404-Pages/)
 
-### Support or Contact
+4. [CountDown Timer](https://imniladri.github.io/Miscellaneous/Count-Down-Timer/)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+5. [Web Scroll Bars](https://imniladri.github.io/Miscellaneous/Web-Scroll-Bars/)
+
+6. [Image Hovers](https://imniladri.github.io/Miscellaneous/Image-Hovers/)
+
+7. [Cursor Particles](https://imniladri.github.io/Miscellaneous/Cursor-Particles/)
+
+8. [Click Effects](https://imniladri.github.io/Miscellaneous/Click-Effects/)
+
+9. [Ratings System](https://imniladri.github.io/Miscellaneous/Ratings-System/)
+
+10. [Lotties Animation](https://imniladri.github.io/Miscellaneous/Lotties-Animation/)
+
+11. [Parallax Effect](https://imniladri.github.io/Miscellaneous/Parallax-Effect/)
+
+12. [Mini Games](https://imniladri.github.io/Miscellaneous/Mini-Games/)
+
+---
+
+### **Author:**
+
+### [**Niladri Mondal**](https://imniladri.in/)
+
+### **Usage:**
+
+> Fell free to use them.
+>
+> These templates are for increase our speed and productivity in development.
+
+### **Category:**
+
+| CSS | Javascript | All |
+| :-- | :--------- | :-- |
+|     |            |     |
+|     |            |     |
+|     |            |     |
+
+### _Categories will be updated later!_
+
+---
+
+### **Powered By:**
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### _More Coming Soon!_
