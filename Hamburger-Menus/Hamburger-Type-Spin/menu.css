@@ -1,0 +1,76 @@
+/* General */
+
+body {
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+:root {
+	--menu-color: #363940;
+}
+
+
+/* Icon */
+
+.menu_icon {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	background: none;
+	border-radius: 8px;
+	overflow: hidden;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu_inner {
+	position: absolute;
+	width: 70%;
+	height: 4px;
+	background: var(--menu-color);
+	border-radius: 4px;
+}
+
+.menu_inner:before,
+.menu_inner:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: var(--menu-color);
+	border-radius: 4px;
+}
+
+.menu_inner:before {top: -12px}
+.menu_inner:after {top: 12px}
+
+/* Animation */
+
+.menu_spin .menu_inner,
+.menu_spin .menu_inner:before,
+.menu_spin .menu_inner:after {
+	transition: transform, top, opacity, cubic-bezier(0.5,0.1,0.6,0.2) 0.2s;
+}
+
+.menu_spin.menu_active .menu_inner {
+	transition-delay: 0.1s;
+	transition-timing-function: cubic-bezier(0.2,0.6,0.3,1);
+	transform: rotate(225deg);
+}
+
+.menu_spin.menu_active .menu_inner:before {
+	top: 0;
+	opacity: 0;
+	transition: top, opacity, 0.1s ease-out;
+}
+
+.menu_spin.menu_active .menu_inner:after {
+	top: 0;
+	transform: rotate(-90deg);
+	transition: top 0.1s ease-out, transform 0.2s cubic-bezier(0.2,0.6,0.3,1) 0.1s;
+}

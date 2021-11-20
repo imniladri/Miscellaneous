@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#click {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	background: #000;
+	border-radius: 50%;
+	animation: click 0.5s linear forwards;
+}
+
+@keyframes click {
+	0% {
+		width: 0px;
+		height: 0px;
+		opacity: 1;
+	}
+	100% {
+		width: 100px;
+		height: 100px;
+		opacity: 0;
+	}
+}

@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #160F30;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1.text {
+	margin: 200px auto 50px;
+	color: #E8FFFF;
+	font-size: 26px;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.rating {
+	display: flex;
+	justify-content: center;
+}
+
+.rating input {
+	display: none;
+}
+
+.rating label {
+	position: relative;
+	margin: 0 20px;
+	text-align: center;
+	transform: scale(1);
+	filter: grayscale(1);
+	opacity: 0.3;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.rating input:hover + label,
+.rating input:checked + label {
+	transform: scale(1.1);
+	filter: grayscale(0);
+	opacity: 1;
+}
+
+.rating label img {
+	width: 80px;
+	height: 80px;
+}
+
+.rating label h4 {
+	color: #E8FFFF;
+	font-size: 20px;
+	padding-top: 10px;
+	font-weight: 600;
+	transform: translateY(-50px) scale(0);
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.rating input:hover + label h4,
+.rating input:checked + label h4 {
+	transform: translateY(0) scale(1);
+	opacity: 1;
+}
+
+button {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}

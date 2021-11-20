@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: rgba(74, 210, 149, 0.5);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8fafb;
+    font-family: "Rubik", sans-serif;
+}
+
+/* 404 Error Text */
+
+div.error_text {
+    position: relative;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+div.error_text h1 {
+    margin: 30px auto;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    color: #37414b;
+    line-height: 1.4;
+}
+
+div.error_text h3 {
+    margin: 20px auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    color: #163a61;
+    line-height: 1.8;
+}
+
+div.error_text a.error_btn {
+    padding: 10px 30px;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    background: #072f3d;
+    color: #fff;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/* 404 Error Img */
+
+div.error_img {
+    margin: auto;
+    position: relative;
+    width: 625px;
+    height: 314px;
+    background: url(./img/404.png) no-repeat 50% / cover;
+}
+
+/* Img Components */
+
+div.error_img .alien {
+    position: absolute;
+    bottom: 95px;
+    right: -3px;
+    width: 12px;
+    height: 20px;
+    background: url(./img/alien.png) no-repeat 50% / cover;
+    transform-origin: bottom left;
+    animation: alien 0.3s linear infinite;
+}
+
+div.error_img .ufo {
+    position: absolute;
+    top: 70px;
+    right: 47px;
+    width: 70px;
+    height: 59px;
+    background: url(./img/ufo.png) no-repeat 50% / cover;
+    animation: ufo 1.5s ease-in-out infinite;
+}
+
+div.error_img .estela {
+    position: absolute;
+    bottom: 76px;
+    left: 144px;
+    width: 40px;
+    height: 3px;
+    background: url(./img/estela.png) no-repeat 50% / cover;
+    animation: estela 1s ease-in-out infinite;
+}
+
+div.error_img .estela::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 3px;
+    background: linear-gradient(270deg, #072f3d, transparent);
+}
+
+div.error_img .satellite_box {
+    position: absolute;
+    top: 108px;
+    left: 20px;
+    width: 0;
+    height: 100px;
+    animation: satellite_box 2s linear infinite;
+}
+
+div.error_img .satellite {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    background: url(./img/satellite.png) no-repeat 50% / cover;
+    transform-origin: bottom left;
+    animation: satellite 2s linear infinite;
+}
+
+/* All Animation Keyframes */
+
+@keyframes alien {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes ufo {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(40px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes estela {
+    0% {
+        background-position: -40px 0;
+    }
+    100% {
+        background-position: 40px 0;
+    }
+}
+
+@keyframes satellite_box {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes satellite {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-1turn);
+    }
+}
+
+/* Responsive Medias */
+
+@media (max-width: 646px) {
+    div.error_img {
+        width: 320px;
+        height: 161px;
+    }
+
+    div.error_img .alien,
+    div.error_img .ufo,
+    div.error_img .estela,
+    div.error_img .satellite {
+        display: none;
+    }
+}

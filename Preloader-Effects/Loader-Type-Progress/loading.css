@@ -1,0 +1,51 @@
+#preloader {
+	position: fixed;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100vh;
+	background: #F6F6F6;
+	z-index: 999;
+	transition: all 0.4s ease;
+}
+
+/* The Loader Container */
+
+.pace {
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	height: 12px;
+	background: #EDEEF7;
+	border-radius: 50px;
+	z-index: 1000;
+	overflow: hidden;
+	transition: all 0.4s ease;
+}
+
+.pace .pace-progress {
+	position: absolute;
+	top: 0; right: 100%;
+	width: 100%;
+	height: 100%;
+	background: #0075F6;
+	border-radius: 50px;
+	transition: all 0.4s ease;
+}
+
+/*.pace.pace-inactive {
+	display: none;
+}*/
+
+.pace .pace-progress:after {
+	content: attr(data-progress-text);
+	margin: 20px auto;
+	position: absolute;
+	width: 100%;
+	font-size: 30px;
+	font-weight: 600;
+	font-family: sans-serif;
+	color: #26001B;
+	text-align: center;
+	transition: all 0.4s ease;
+}

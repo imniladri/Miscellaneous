@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background: #ffffff;
+    font-family: "Merriweather", serif;
+    overflow: hidden;
+}
+
+body.dark {
+    background: #21222d;
+}
+
+/* Particles SVG */
+
+svg {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    transform: translateZ(0px);
+}
+
+svg .pentahedron {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #3e82f7;
+}
+
+svg .point {
+    fill: #8491a3;
+}
+
+svg .rhombus {
+    fill: #2da94f;
+    stroke: #2da94f;
+}
+
+svg .x {
+    fill: #fdbd00;
+}
+
+svg .circle {
+    fill: #ed412d;
+}
+
+/* Error Div */
+
+div.error_msg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+}
+
+div.error_msg h1 {
+    margin: 20px auto;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Merriweather", serif;
+    color: #212121;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+
+body.dark div.error_msg h1 {
+    color: #ffffff;
+}
+
+div.error_msg p {
+    margin: 20px auto;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    color: #313131;
+    text-align: center;
+    line-height: 2rem;
+}
+
+body.dark div.error_msg p {
+    color: #fafafa;
+}
+
+div.error_msg a.error_btn {
+    margin: 20px auto;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    background: #313131;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+body.dark div.error_msg a.error_btn {
+    background: #ffffff;
+    color: #313131;
+}

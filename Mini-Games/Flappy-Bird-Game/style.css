@@ -1,0 +1,84 @@
+body 
+{
+    height: 100%;
+    width: 100%;
+    margin: 30px auto;
+    background-image: radial-gradient( circle farthest-corner at 50.1% 52.3%,  rgba(255,231,98,1) 58.2%, rgba(251,212,0,1) 90.1% );
+}
+.h1
+{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#container 
+{
+    position: relative;
+    height: 400px;
+    width: 90%;
+    border: 3px solid #000;
+    background-image: radial-gradient( circle 827px at 47.3% 48%,  rgba(255,255,255,1) 0%, rgba(138,192,216,1) 90% );
+    margin-left: 4%;
+    overflow: hidden;
+}
+
+#bird 
+{
+    position: absolute;
+    background: url('bird.png');
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+}
+
+.pole 
+{
+    position: absolute;
+    height: 130px;
+    width: 50px;
+    background-image: radial-gradient( circle farthest-corner at 0.2% 1.8%,  rgba(255,90,8,1) 0%, rgba(88,0,0,1) 100.2% );
+    right: -50px;
+}
+
+#pole_1 
+{
+    top: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+#pole_2 
+{
+    bottom: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+#score_div 
+{
+    text-align: center;
+    font-size: 35px;
+}
+
+#restart_btn 
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#help
+{
+	text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}

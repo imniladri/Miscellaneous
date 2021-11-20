@@ -1,0 +1,61 @@
+/* General */
+
+body {
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+:root {
+	--menu-color: #363940;
+}
+
+
+/* Icon */
+
+.menu-icon {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-btn {
+	width: 50px;
+	height: 5px;
+	background: var(--menu-color);
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(255,101,47,.2);
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-btn::before,
+.menu-btn::after {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 5px;
+	background: var(--menu-color);
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(255,101,47,.2);
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-btn::before { transform: translateY(-15px); }
+.menu-btn::after { transform: translateY(15px); }
+
+/* Animation */
+
+.menu-icon .menu-btn.open {
+	transform: rotate(360deg) translateX(0);
+	background: transparent;
+	box-shadow: none;
+}
+
+.menu-icon .menu-btn.open::before { transform: rotate(45deg) translate(0,0); }
+.menu-icon .menu-btn.open::after { transform: rotate(-45deg) translate(0,0); }

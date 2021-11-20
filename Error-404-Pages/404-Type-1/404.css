@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: #f8fafb;
+    font-family: "Rubik", sans-serif;
+}
+
+div.page404 {
+    position: relative;
+    padding: 50px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.page404 img {
+    margin: 20px auto;
+    width: 50%;
+    height: 100%;
+}
+
+div.page404 h3 {
+    margin: 20px auto 10px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    color: #495464;
+    text-align: center;
+}
+
+div.page404 span {
+    margin: 10px auto;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    color: #6961f5;
+    text-align: center;
+}
+
+div.page404 p {
+    margin: 10px auto;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    color: #9ba4b4;
+    text-align: center;
+}
+
+div.page404 a.btn-404 {
+    margin: 20px auto;
+    padding: 8px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    color: #f1f6f9;
+    background: #5d13e7;
+    border-radius: 4px;
+}
+
+/* Responsive Medias: Image (only) */
+
+@media (max-width: 768px) {
+    div.page404 img {
+        width: 100%;
+    }
+}

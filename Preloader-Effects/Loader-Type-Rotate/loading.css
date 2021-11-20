@@ -1,0 +1,93 @@
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: #f6f6f6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999;
+	transition: 0.5s;
+}
+
+/* The loader container */
+
+.sq1, .sq2, .sq3, .sq4, .sqspin {
+  	margin: auto;
+  	display: flex;
+  	border-radius: 10px;
+  	animation: animationIn 5s infinite linear;
+}
+
+.sq1 {
+  	background: #9818D6;
+  	width: 100px;
+  	height: 100px;
+  	animation: animationA 6s infinite linear;
+  	box-shadow: 0 0 15px #000;
+}
+
+.sq2, .sq4 {
+  	background: #FFF;
+}
+
+.sq3 {
+  	background: #9818D6;
+  	box-shadow: 0 0 10px #000;
+}
+
+.sqspin {
+    animation: animationSpin 8s infinite linear;
+}
+
+@keyframes animationA {
+	0% {
+	  transform: rotate(0deg);
+	}
+
+	100% {
+	  transform: rotate(360deg);
+	}
+}
+
+@keyframes animationIn {
+
+  	0% {
+  	  transform: rotate(0deg);
+  	  width: 60%;
+  	  height: 60%;
+  	}
+
+  	40%, 60% {
+  	  width: 90%;
+  	  height: 90%;
+  	}
+
+  	100% {
+  	  transform: rotate(360deg);
+  	  width: 60%;
+  	  height: 60%;
+  	}
+}
+
+@keyframes animationSpin {
+
+    0% {
+      transform: rotate(0deg);
+      width: 60%;
+      height: 60%;
+    }
+
+    40%, 60% {
+      width: 70%;
+      height: 70%;
+    }
+
+    100% {
+      transform: rotate(360deg);
+      width: 60%;
+      height: 60%;
+    }
+}
