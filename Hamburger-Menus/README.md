@@ -20,18 +20,22 @@ Title | Preview | Code
     | [Preview](https://imniladri.github.io/Miscellaneous/Hamburger-Menus/Hamburger-Type-Candy)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hamburger-Menus/Hamburger-Type-Candy)
 
-3.  Hamburger Type Rotate:
+3.  Hamburger Type Fries:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Hamburger-Menus/Hamburger-Type-Fries)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hamburger-Menus/Hamburger-Type-Fries)
+
+4.  Hamburger Type Rotate:
     | [Preview](https://imniladri.github.io/Miscellaneous/Hamburger-Menus/Hamburger-Type-Rotate)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hamburger-Menus/Hamburger-Type-Rotate)
 
-4.  Hamburger Type Slide:
+5.  Hamburger Type Slide:
     | [Preview](https://imniladri.github.io/Miscellaneous/Hamburger-Menus/Hamburger-Type-Slide)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hamburger-Menus/Hamburger-Type-Slide)
 
-5.  Hamburger Type Spin:
+6.  Hamburger Type Spin:
     | [Preview](https://imniladri.github.io/Miscellaneous/Hamburger-Menus/Hamburger-Type-Spin)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hamburger-Menus/Hamburger-Type-Spin)
 
-6.  Hamburger Type Squeeze:
+7.  Hamburger Type Squeeze:
     | [Preview](https://imniladri.github.io/Miscellaneous/Hamburger-Menus/Hamburger-Type-Squeeze)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hamburger-Menus/Hamburger-Type-Squeeze)

@@ -1,0 +1,87 @@
+/* General */
+
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --menu-color: #363940;
+}
+
+/* Icon */
+
+.menu_icon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: none;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.menu_inner {
+    position: absolute;
+    width: 60%;
+    height: 4px;
+    background: var(--menu-color);
+    border-radius: 4px;
+}
+
+.menu_inner:before,
+.menu_inner:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--menu-color);
+    border-radius: 4px;
+}
+
+.menu_inner:before {
+    top: -12px;
+    width: 80%;
+}
+
+.menu_inner:after {
+    top: 12px;
+    width: 40%;
+}
+
+/* Animation */
+
+.menu_fries .menu_inner,
+.menu_fries .menu_inner::before,
+.menu_fries .menu_inner::after {
+    transition: all 0.2s ease;
+}
+
+.menu_fries.menu_active .menu_inner {
+    background: transparent;
+    transition: all 0.2s linear;
+}
+
+.menu_fries.menu_active .menu_inner::before {
+    top: 0;
+    width: 100%;
+    transform: rotate(45deg);
+    transition: all 0.2s linear;
+    transition-delay: 0.1s;
+}
+
+.menu_fries.menu_active .menu_inner::after {
+    top: 0;
+    width: 100%;
+    transform: rotate(315deg);
+    transition: all 0.3s linear;
+    transition-delay: 0.2s;
+}
