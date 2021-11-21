@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">	
-	<title>Counter Countdown Timer</title>
-	<link rel="stylesheet" href="counter.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Count Down Timer</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+	<link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
-	<div class="container-counter">
-		<h2><span>Happy BirthDay To ME</span></h2>
-		<div class="countdown">
-			<div id="day"> NA </div>
-			<div id="hour"> NA </div>
-			<div id="minute"> NA </div>
-			<div id="second"> NA </div>
+	<div class="container_counter">
+		<h2>Count Down Timer</h2>
+		<div class="countdown" data-date="1 January, 2022">
+			<div id="day">NA</div>
+			<div id="hour">NA</div>
+			<div id="minute">NA</div>
+			<div id="second">NA</div>
 		</div>
 	</div>
 
-	<script src="counter.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="./timerJquery.js"></script>
+	<!-- <script src="./timerJs.js"></script> -->
+
 </body>
+
 </html>
