@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Adobe Illustrator, SVG Export Plug-In . SVG Version)  -->
+<svg version="1.1" id="name_logo" data-name="Name Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 465.36 68.29">
+	<style>
+		@import url("./style.css");
+	</style>
+
+	<script>
+		window.addEventListener("load", () => {
+			var svg = document.querySelector('svg');
+
+			setTimeout(() => {
+				svg.setAttribute("class", "loaded");
+			}, 1000);
+		});
+	</script>
+
+	<title>IMNILADRI</title>
+
+	<line id="I-1" class="letter red" x1="7" y1="0.87" x2="7" y2="66.74" />
+
+	<path id="M" class="letter yellow" d="M181.53,185V151.73A26.47,26.47,0,0,1,208,125.26h0a26.47,26.47,0,0,1,26.47,26.47V185"
+		transform="translate(-156.23 -118.26)" />
+	<line id="M-Dash" class="letter yellow" x1="51.77" y1="66.74" x2="51.77" y2="32.53" />
+
+	<path id="N" class="letter violet" d="M252.77,185V151.73a26.47,26.47,0,0,1,26.46-26.47h0a26.47,26.47,0,0,1,26.47,26.47V185"
+		transform="translate(-156.23 -118.26)" />
+
+	<line id="I-2" class="letter green" x1="167.77" y1="0.87" x2="167.77" y2="66.74" />
+
+	<path id="L" class="letter red" d="M341.51,119.13l.13,35.19a23.57,23.57,0,0,0,23.49,23.49l35.19.13"
+		transform="translate(-156.23 -118.26)" />
+
+	<path id="A" class="letter violet"
+		d="M458.47,185V125.26h-26a26.81,26.81,0,0,0-26.81,26.81h0v.2a26.82,26.82,0,0,0,25.64,26.79l11.47.5"
+		transform="translate(-156.23 -118.26)" />
+
+	<path id="D" class="letter green"
+		d="M468.74,125.26h31.2c14.54,0,29.25,11.79,29.25,26.34h0c0,14.55-14.71,26.34-29.25,26.34h-31.2"
+		transform="translate(-156.23 -118.26)" />
+
+	<path id="R" class="letter yellow" d="M538.28,125.26h41.44c8.7,0,17.45,7,17.45,15.74h0c0,8.7-8.75,15.75-17.45,15.75H538.28"
+		transform="translate(-156.23 -118.26)" />
+	<path id="R-Dash" class="letter yellow" d="M591.72,185V168.75a12,12,0,0,0-12-12h0"
+		transform="translate(-156.23 -118.26)" />
+
+	<line id="I-3" class="letter violet" x1="458.36" y1="0.87" x2="458.36" y2="66.74" />
+</svg>

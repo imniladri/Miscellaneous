@@ -1,0 +1,23 @@
+svg#pdflottie {
+	fill: none;
+	stroke: #fafafa;
+	stroke-width: 0.6;
+	stroke-linecap: round;
+	animation: fill 1s ease forwards 2.5s;
+}
+
+@keyframes fill {
+	0% {fill: transparent;}
+	100% {fill: #fafafa;}
+}
+
+svg#pdflottie path {
+	stroke-dasharray: 140;
+	stroke-dashoffset: 140;
+	animation: line 4s ease forwards;
+}
+
+@keyframes line {
+	0% {stroke-dasharray: 70;}
+	100% {stroke-dashoffset: 0;}
+}

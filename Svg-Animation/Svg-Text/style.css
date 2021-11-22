@@ -1,0 +1,110 @@
+svg#name_logo {
+    visibility: hidden;
+}
+
+svg#name_logo.loaded {
+    visibility: visible;
+}
+
+svg#name_logo.loaded .letter {
+    fill: none;
+    stroke: #fafafa;
+    stroke-width: 14px;
+    stroke-miterlimit: 10;
+}
+
+svg#name_logo.loaded .red {
+    stroke: rgba(246, 0, 81, 1);
+}
+svg#name_logo.loaded .green {
+    stroke: rgba(6, 245, 114, 1);
+}
+svg#name_logo.loaded .violet {
+    stroke: rgba(88, 125, 249, 1);
+}
+svg#name_logo.loaded .yellow {
+    stroke: rgba(252, 206, 13, 1);
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* IMNILADRI */
+
+/* I */
+svg#name_logo.loaded line#I-1 {
+    stroke-dasharray: 66;
+    stroke-dashoffset: 66;
+    animation: line 0.6s linear forwards 0s;
+}
+
+/* M */
+svg#name_logo.loaded path#M {
+    stroke-dasharray: 150;
+    stroke-dashoffset: 150;
+    animation: line 1.5s linear forwards 0.2s;
+}
+
+svg#name_logo.loaded line#M-Dash {
+    stroke-dasharray: 36;
+    stroke-dashoffset: 36;
+    animation: line 1s linear forwards 0.3s;
+}
+
+/* N */
+svg#name_logo.loaded path#N {
+    stroke-dasharray: 150;
+    stroke-dashoffset: 150;
+    animation: line 1.5s linear forwards 0.6s;
+}
+
+/* I */
+svg#name_logo.loaded line#I-2 {
+    stroke-dasharray: 66;
+    stroke-dashoffset: 66;
+    animation: line 0.8s linear forwards 0.8s;
+}
+
+/* L */
+svg#name_logo.loaded path#L {
+    stroke-dasharray: 108;
+    stroke-dashoffset: 108;
+    animation: line 1s linear forwards 1s;
+}
+
+/* A */
+svg#name_logo.loaded path#A {
+    stroke-dasharray: 182;
+    stroke-dashoffset: 182;
+    animation: line 1.5s linear forwards 1.4s;
+}
+
+/* D */
+svg#name_logo.loaded path#D {
+    stroke-dasharray: 150;
+    stroke-dashoffset: 150;
+    animation: line 1.5s linear forwards 1.6s;
+}
+
+/* R */
+svg#name_logo.loaded path#R {
+    stroke-dasharray: 136;
+    stroke-dashoffset: 136;
+    animation: line 0.8s linear forwards 1.8s;
+}
+
+svg#name_logo.loaded path#R-Dash {
+    stroke-dasharray: 36;
+    stroke-dashoffset: 36;
+    animation: line 0.6s linear forwards 2.1s;
+}
+
+/* I */
+svg#name_logo.loaded line#I-3 {
+    stroke-dasharray: 66;
+    stroke-dashoffset: 66;
+    animation: line 0.8s linear forwards 2.2s;
+}

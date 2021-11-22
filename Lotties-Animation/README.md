@@ -1,6 +1,6 @@
 # **Lotties Animation**
 
-Famous cool Lottie / SVG files animation ways in our websites.
+Famous cool Lottie files animation ways in our websites.
 
 [**Get Here**](https://github.com/imniladri/Miscellaneous/tree/main/Lotties-Animation)
 
