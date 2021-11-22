@@ -21,21 +21,23 @@ Preview | Code | Link
 
 4. [CountDown Timer](https://imniladri.github.io/Miscellaneous/Count-Down-Timer/)
 
-5. [Web Scroll Bars](https://imniladri.github.io/Miscellaneous/Web-Scroll-Bars/)
+5. [Svg Animation](https://imniladri.github.io/Miscellaneous/Svg-Animation/)
 
-6. [Image Hovers](https://imniladri.github.io/Miscellaneous/Image-Hovers/)
+6. [Web Scroll Bars](https://imniladri.github.io/Miscellaneous/Web-Scroll-Bars/)
 
-7. [Cursor Particles](https://imniladri.github.io/Miscellaneous/Cursor-Particles/)
+7. [Image Hovers](https://imniladri.github.io/Miscellaneous/Image-Hovers/)
 
-8. [Click Effects](https://imniladri.github.io/Miscellaneous/Click-Effects/)
+8. [Cursor Particles](https://imniladri.github.io/Miscellaneous/Cursor-Particles/)
 
-9. [Ratings System](https://imniladri.github.io/Miscellaneous/Ratings-System/)
+9. [Click Effects](https://imniladri.github.io/Miscellaneous/Click-Effects/)
 
-10. [Lotties Animation](https://imniladri.github.io/Miscellaneous/Lotties-Animation/)
+10. [Ratings System](https://imniladri.github.io/Miscellaneous/Ratings-System/)
 
-11. [Parallax Effect](https://imniladri.github.io/Miscellaneous/Parallax-Effect/)
+11. [Lotties Animation](https://imniladri.github.io/Miscellaneous/Lotties-Animation/)
 
-12. [Mini Games](https://imniladri.github.io/Miscellaneous/Mini-Games/)
+12. [Parallax Effect](https://imniladri.github.io/Miscellaneous/Parallax-Effect/)
+
+13. [Mini Games](https://imniladri.github.io/Miscellaneous/Mini-Games/)
 
 ---
 
