@@ -27,3 +27,7 @@ Title | Preview | Code
 4.  404 Type 4:
     | [Preview](https://imniladri.github.io/Miscellaneous/Error-404-Pages/404-Type-4/404.html)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Error-404-Pages/404-Type-4)
+
+5.  404 Type 5:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Error-404-Pages/404-Type-5/404.html)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Error-404-Pages/404-Type-5)
