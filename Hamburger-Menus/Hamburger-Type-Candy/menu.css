@@ -8,7 +8,7 @@ body {
 }
 
 :root {
-    --menu-color: #363940;
+    --menu-color: #293b5f;
 }
 
 /* Icon */
@@ -25,44 +25,46 @@ div.menu_icon {
     cursor: pointer;
     overflow: hidden;
     z-index: 10;
+
+    box-shadow: 0 0 4px rgba(71, 89, 126, 0.3);
 }
 
 /* Icon Open */
 
 div.menu_icon .menu_open {
     position: absolute;
-    width: 13.5px;
-    height: 13.5px;
+    width: 13px;
+    height: 13px;
     background: var(--menu-color);
     border-radius: 2px;
     transition: all 0.3s ease;
 }
 
 div.menu_icon .menu_open.box_1 {
-    top: 9.5px;
-    left: 9.5px;
+    top: 10px;
+    left: 10px;
 }
 
 div.menu_icon .menu_open.box_2 {
-    top: 9.5px;
-    right: 9.5px;
+    top: 10px;
+    right: 10px;
 }
 
 div.menu_icon .menu_open.box_3 {
-    bottom: 9.5px;
-    left: 9.5px;
+    bottom: 10px;
+    left: 10px;
 }
 
 div.menu_icon .menu_open.box_4 {
-    bottom: 9.5px;
-    right: 9.5px;
+    bottom: 10px;
+    right: 10px;
 }
 
 /* Icon Close */
 
 div.menu_icon .menu_close {
     position: absolute;
-    width: 36.5px;
+    width: 36px;
     height: 4px;
     background: var(--menu-color);
     border-radius: 2px;

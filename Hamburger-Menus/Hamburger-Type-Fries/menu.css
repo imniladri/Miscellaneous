@@ -8,7 +8,7 @@ body {
 }
 
 :root {
-    --menu-color: #363940;
+    --menu-color: #293b5f;
 }
 
 /* Icon */
@@ -25,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 4px rgba(71, 89, 126, 0.3);
 }
 
 .menu_inner {
@@ -48,12 +48,12 @@ body {
 }
 
 .menu_inner:before {
-    top: -12px;
+    top: -10px;
     width: 80%;
 }
 
 .menu_inner:after {
-    top: 12px;
+    top: 10px;
     width: 40%;
 }
 

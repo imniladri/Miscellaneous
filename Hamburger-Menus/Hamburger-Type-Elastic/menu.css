@@ -56,27 +56,28 @@ body {
 
 /* Animation */
 
-.menu_spin .menu_inner,
-.menu_spin .menu_inner:before,
-.menu_spin .menu_inner:after {
-    transition: transform, top, opacity, cubic-bezier(0.5, 0.1, 0.6, 0.2) 0.2s;
+.menu_elastic .menu_inner {
+    transition: background 0.2s ease;
 }
 
-.menu_spin.menu_active .menu_inner {
+.menu_elastic .menu_inner:before,
+.menu_elastic .menu_inner:after {
+    transition: all 0.4s cubic-bezier(0.76, -0.54, 0.23, 1.58);
+}
+
+.menu_elastic.menu_active .menu_inner {
+    background: transparent;
+    transition: background 0.2s ease;
+}
+
+.menu_elastic.menu_active .menu_inner:before {
+    top: 0;
+    transform: rotate(-225deg);
     transition-delay: 0.1s;
-    transition-timing-function: cubic-bezier(0.2, 0.6, 0.3, 1);
+}
+
+.menu_elastic.menu_active .menu_inner:after {
+    top: 0;
     transform: rotate(225deg);
-}
-
-.menu_spin.menu_active .menu_inner:before {
-    top: 0;
-    opacity: 0;
-    transition: top, opacity, 0.1s ease-out;
-}
-
-.menu_spin.menu_active .menu_inner:after {
-    top: 0;
-    transform: rotate(-90deg);
-    transition: top 0.1s ease-out,
-        transform 0.2s cubic-bezier(0.2, 0.6, 0.3, 1) 0.1s;
+    transition-delay: 0.1s;
 }
