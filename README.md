@@ -25,7 +25,7 @@ Preview | Code | Link
 
 6. [Web Scroll Bars](https://imniladri.github.io/Miscellaneous/Web-Scroll-Bars/)
 
-7. [Image Hovers](https://imniladri.github.io/Miscellaneous/Image-Hovers/)
+7. [Hover Effects](https://imniladri.github.io/Miscellaneous/Hover-Effects/)
 
 8. [Cursor Particles](https://imniladri.github.io/Miscellaneous/Cursor-Particles/)
 
