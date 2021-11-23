@@ -1,0 +1,93 @@
+/* General */
+
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --menu-color: #293b5f;
+}
+
+/* Icon */
+
+.menu_icon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: none;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 4px rgba(71, 89, 126, 0.3);
+}
+
+.menu_inner {
+    position: absolute;
+    width: 60%;
+    height: 4px;
+    background: var(--menu-color);
+    border-radius: 4px;
+}
+
+.menu_inner:before,
+.menu_inner:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: var(--menu-color);
+    border-radius: 4px;
+}
+
+.menu_inner:before {
+    top: -10px;
+    left: 0;
+}
+.menu_inner:after {
+    top: 10px;
+    right: 0;
+}
+
+/* Animation */
+
+.menu_emphatic .menu_inner {
+    transition: background 0.125s 0.175s ease-in;
+}
+
+.menu_emphatic .menu_inner:before {
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335),
+        top 0.05s 0.125s linear, left 0.125s 0.175s ease-in;
+}
+
+.menu_emphatic .menu_inner:after {
+    transition: transform 0.125s cubic-bezier(0.6, 0.04, 0.98, 0.335),
+        top 0.05s 0.125s linear, right 0.125s 0.175s ease-in;
+}
+
+.menu_emphatic.menu_active .menu_inner {
+    background: transparent;
+    transition: background 0.125s 0.175s ease-out;
+}
+
+.menu_emphatic.menu_active .menu_inner:before {
+    left: -80px;
+    top: -80px;
+    transform: translate(80px, 80px) rotate(45deg);
+    transition: left 0.125s ease-out, top 0.05s 0.125s linear,
+        transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.menu_emphatic.menu_active .menu_inner:after {
+    right: -80px;
+    top: -80px;
+    transform: translate(-80px, 80px) rotate(-45deg);
+    transition: right 0.125s ease-out, top 0.05s 0.125s linear,
+        transform 0.125s 0.175s cubic-bezier(0.075, 0.82, 0.165, 1);
+}

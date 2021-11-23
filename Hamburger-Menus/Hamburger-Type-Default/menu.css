@@ -1,0 +1,77 @@
+/* General */
+
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --menu-color: #293b5f;
+}
+
+/* Icon */
+
+.menu_icon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: none;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 4px rgba(71, 89, 126, 0.3);
+}
+
+.menu_inner {
+    position: absolute;
+    width: 60%;
+    height: 4px;
+    background: var(--menu-color);
+    border-radius: 4px;
+}
+
+.menu_inner:before,
+.menu_inner:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--menu-color);
+    border-radius: 4px;
+}
+
+.menu_inner:before {
+    top: -10px;
+}
+.menu_inner:after {
+    top: 10px;
+}
+
+/* Animation */
+
+.menu_default .menu_inner,
+.menu_default .menu_inner:before,
+.menu_default .menu_inner:after {
+    transition: none;
+}
+
+.menu_default.menu_active .menu_inner {
+    background: transparent;
+}
+
+.menu_default.menu_active .menu_inner:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.menu_default.menu_active .menu_inner:after {
+    top: 0;
+    transform: rotate(-45deg);
+}
