@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1a1a2e;
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    margin: 40px 0;
+    border-radius: 10px;
+    background-position: top;
+    transition: background-position 8s linear;
+    cursor: url(cursor.png), pointer;
+    background: linear-gradient(45deg, #171729, #1c1c31);
+    box-shadow: 16px -16px 41px #0a0a12, -16px 16px 41px #2a2a4a;
+}
+
+.box.box1 {
+    background: url(img/img-1.png);
+    background-size: cover;
+}
+.box.box2 {
+    background: url(img/img-2.png);
+    background-size: cover;
+}
+
+.box:hover {
+    background-position: bottom;
+}
