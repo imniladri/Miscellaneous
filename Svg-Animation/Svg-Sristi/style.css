@@ -1,0 +1,89 @@
+svg#sristi_logo {
+    fill: none;
+    stroke: none;
+    stroke-width: 8px;
+    stroke-linecap: round;
+    animation: fill 1s ease forwards 2.5s;
+}
+
+svg#sristi_logo g.year path {
+    fill: #f7f6f2;
+    stroke: none;
+    stroke-width: 4px;
+    stroke-linecap: round;
+    clip-path: inset(0 0 100% 0);
+    animation: clipPath 0.8s ease forwards 2.5s;
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: #16222c;
+    }
+}
+
+@keyframes clipPath {
+    0% {
+        clip-path: inset(0 0 100% 0);
+    }
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes line {
+    0% {
+        stroke-dasharray: 200;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+svg#sristi_logo .pink {
+    stroke: #ff00e4;
+}
+svg#sristi_logo .green {
+    stroke: #0cecdd;
+}
+svg#sristi_logo .yellow {
+    stroke: #ffd523;
+}
+
+svg#sristi_logo g.name path:nth-child(1) {
+    stroke-dasharray: 1628;
+    stroke-dashoffset: 1628;
+    animation: line 6s ease forwards 0s;
+}
+
+svg#sristi_logo g.name path:nth-child(2) {
+    stroke-dasharray: 834;
+    stroke-dashoffset: 834;
+    animation: line 4s ease forwards 0.5s;
+}
+
+svg#sristi_logo g.name path:nth-child(3) {
+    stroke-dasharray: 710;
+    stroke-dashoffset: 710;
+    animation: line 4s ease forwards 1s;
+}
+
+svg#sristi_logo g.name path:nth-child(4) {
+    stroke-dasharray: 990;
+    stroke-dashoffset: 990;
+    animation: line 4s ease forwards 1.5s;
+}
+
+svg#sristi_logo g.name path:nth-child(5) {
+    stroke-dasharray: 1144;
+    stroke-dashoffset: 1144;
+    animation: line 4s ease forwards 2s;
+}
+
+svg#sristi_logo g.name path:nth-child(6) {
+    stroke-dasharray: 710;
+    stroke-dashoffset: 710;
+    animation: line 4s ease forwards 2.5s;
+}

@@ -1,0 +1,112 @@
+<!-- Generator: Adobe Illustrator, SVG Export Plug-In . SVG Version)  -->
+<svg version="1.1" id="sristi_logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 971.82 443.1">
+    <style>
+		<!-- @import url('style.css'); -->
+
+        svg#sristi_logo {
+            fill: none;
+            stroke: none;
+            stroke-width: 8px;
+            stroke-linecap: round;
+            animation: fill 1s ease forwards 2.5s;
+        }
+
+        svg#sristi_logo g.year path {
+            fill: #F7F6F2;
+            stroke: none;
+            stroke-width: 4px;
+            stroke-linecap: round;
+            clip-path: inset(0 0 100% 0);
+            animation: clipPath 0.8s ease forwards 2.5s;
+        }
+
+        @keyframes fill {
+            0% {
+                fill: transparent;
+            }
+            100% {
+                fill: #16222c;
+            }
+        }
+
+        @keyframes clipPath {
+            0% {
+                clip-path: inset(0 0 100% 0);
+            }
+            100% {
+                clip-path: inset(0 0 0 0);
+            }
+        }
+
+        @keyframes line {
+            0% {
+                stroke-dasharray: 200;
+            }
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        svg#sristi_logo .pink {
+            stroke: #ff00e4;
+        }
+        svg#sristi_logo .green {
+            stroke: #0cecdd;
+        }
+        svg#sristi_logo .yellow {
+            stroke: #ffd523;
+        }
+
+        svg#sristi_logo g.name path:nth-child(1) {
+            stroke-dasharray: 1628;
+            stroke-dashoffset: 1628;
+            animation: line 6s ease forwards 0s;
+        }
+
+        svg#sristi_logo g.name path:nth-child(2) {
+            stroke-dasharray: 834;
+            stroke-dashoffset: 834;
+            animation: line 4s ease forwards 0.5s;
+        }
+
+        svg#sristi_logo g.name path:nth-child(3) {
+            stroke-dasharray: 710;
+            stroke-dashoffset: 710;
+            animation: line 4s ease forwards 1s;
+        }
+
+        svg#sristi_logo g.name path:nth-child(4) {
+            stroke-dasharray: 990;
+            stroke-dashoffset: 990;
+            animation: line 4s ease forwards 1.5s;
+        }
+
+        svg#sristi_logo g.name path:nth-child(5) {
+            stroke-dasharray: 1144;
+            stroke-dashoffset: 1144;
+            animation: line 4s ease forwards 2s;
+        }
+
+        svg#sristi_logo g.name path:nth-child(6) {
+            stroke-dasharray: 710;
+            stroke-dashoffset: 710;
+            animation: line 4s ease forwards 2.5s;
+        }
+	</style>
+    <title>Sristi</title>
+    <g class="name">
+        <path class="yellow" d="M757.25,372.92l-38.08,22.4-8.78-16.61-166.74,79,204.83,35.1,5.79,55.64L469.53,634.32,669.5,527l-199-39,24.27-53.59L741.57,318.21Z" transform="translate(-466.88 -294.44)"/>
+        <path class="green" d="M837.54,452.09,802.62,651.5,775.55,546.56,812.15,378,845.75,405l-5.22,29.51,54.89-47.06,30.06,44.07-48.54,43.69,4.85-38.84Z" transform="translate(-466.88 -294.44)"/>
+        <path class="yellow" d="M987.64,400.18,948.25,639.92l-31.93-93.36L945.63,406ZM950.3,382.07l12.32-61.62,33.61,27.08L990.44,383Z" transform="translate(-466.88 -294.44)"/>
+        <path class="pink" d="M1216.65,373.85l-155.16,75.06L1134.3,512l-3.92,51.72L965,615.84l122.86-83.09-73.19-68.15,9.9-48.74Z" transform="translate(-466.88 -294.44)"/>
+        <path class="green" d="M1263.61,414.18,1227,639.92l-31.93-93.36L1219.17,426l-91.49,23.9,95.6-44.63L1244.38,299,1278,326.05l-9.34,58.07,113.71-53.21-39,62.36Z" transform="translate(-466.88 -294.44)"/>
+        <path class="pink" d="M1427.41,400.18,1388,639.92l-31.92-93.36L1385.4,406Zm-37.34-18.11,12.32-61.62L1436,347.53,1430.21,383Z" transform="translate(-466.88 -294.44)"/>
+    </g>
+
+    <g class="year">
+        <path d="M878.6,701.44H816.32V683.35H878.6c3.31,0,5.74-3,5.74-6.61s-2.43-6.61-5.74-6.61H816.32V652H878.6c13.22,0,24,11.14,24,24.71C902.61,690.48,891.82,701.44,878.6,701.44Zm24.19,16v18.09H816.67V708.4h18.26v9.05Z" transform="translate(-466.88 -294.44)"/>
+        <path d="M1005.61,652v23.32a25.36,25.36,0,0,1-25.23,25.22H936.89v35h-18.1V652h18.1v30.45h43.49a7.13,7.13,0,0,0,7-7.13V652Zm-18.27,83.51V704.23h18.27v31.31Z" transform="translate(-466.88 -294.44)"/>
+        <path d="M1083.73,701.44h-62.29V683.35h62.29c3.3,0,5.74-3,5.74-6.61s-2.44-6.61-5.74-6.61h-62.29V652h62.29c13.22,0,24,11.14,24,24.71C1107.74,690.48,1097,701.44,1083.73,701.44Zm24.18,16v18.09h-86.12V708.4h18.27v9.05Z" transform="translate(-466.88 -294.44)"/>
+        <path d="M1185.51,701.44h-62.29V683.35h62.29c3.3,0,5.74-3,5.74-6.61s-2.44-6.61-5.74-6.61h-62.29V652h62.29c13.22,0,24,11.14,24,24.71C1209.52,690.48,1198.73,701.44,1185.51,701.44Zm24.18,16v18.09h-86.12V708.4h18.27v9.05Z" transform="translate(-466.88 -294.44)"/>    
+    </g>
+</svg>
