@@ -59,3 +59,7 @@ Title | Preview | Code
 12. Loader Type System:
     | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-System)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-System)
+
+13. Loader Type Spinner:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-Spinner)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-Spinner)
