@@ -1,0 +1,24 @@
+<svg version="1.1" id="SD" data-name="SD" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128.5 263">
+  <defs>
+    <style>
+      @import url('style.css');
+    </style>
+  </defs>
+  <title>SD</title>
+  <g id="first">
+    <path id="S" class="red" d="M255,326H180.5A23.5,23.5,0,0,0,157,349.5h0A23.5,23.5,0,0,0,180.5,373h44A23.5,23.5,0,0,1,248,396.5v2c0,13-10.52,21.5-23.5,21.5H149" transform="translate(-144.5 -311.5)"/>
+    <path id="O" class="green" d="M329.14,324.5h0a45.64,45.64,0,0,1,45.64,45.64v6.22A45.64,45.64,0,0,1,329.14,422h0a45.64,45.64,0,0,1-45.64-45.64v-6.22a45.64,45.64,0,0,1,45.64-45.64Z" transform="translate(-144.5 -311.5)"/>
+    <path id="U" class="red" d="M410,314v58.43A45.57,45.57,0,0,0,455.57,418h5.86A45.57,45.57,0,0,0,507,372.43V315" transform="translate(-144.5 -311.5)"/>
+    <path id="R" class="blue" d="M630,433v-2.73A47.27,47.27,0,0,0,582.73,383H610.5A28.5,28.5,0,0,0,639,354.5h0A28.5,28.5,0,0,0,610.5,326H531" transform="translate(-144.5 -311.5)"/>
+    <path id="A" class="green" d="M744,423H726.5A49.5,49.5,0,0,1,677,373.5h0A49.5,49.5,0,0,1,726.5,324H771V433" transform="translate(-144.5 -311.5)"/>
+    <path id="J" class="red" d="M796,424h16.11A51.89,51.89,0,0,0,864,372.11V314" transform="translate(-144.5 -311.5)"/>
+    <path id="E-1" class="blue" d="M1009,423H952a49,49,0,0,1-49-49h0a49,49,0,0,1,49-49h57m0,49H947" transform="translate(-144.5 -311.5)"/>
+    <path id="E-2" class="green" d="M1141,423h-57a49,49,0,0,1-49-49h0a49,49,0,0,1,49-49h57m0,49h-62" transform="translate(-144.5 -311.5)"/>
+    <path id="T" class="red" d="M1154,325h119m-59,108V325" transform="translate(-144.5 -311.5)"/>
+  </g>
+  <g id="last">
+    <path id="D" class="green" d="M150,464h56.5c26.23,0,49.5,21.27,49.5,47.5h0c0,26.23-23.27,47.5-49.5,47.5H149" transform="translate(-144.5 -311.5)"/>
+    <path id="E-3" class="blue" d="M399,562H342a49,49,0,0,1-49-49h0a49,49,0,0,1,49-49h57m0,49H337" transform="translate(-144.5 -311.5)"/>
+    <path id="Y" class="red" d="M522,453v40a49,49,0,0,1-49,49h0a49,49,0,0,1-49-49V453m49,119V542" transform="translate(-144.5 -311.5)"/>
+  </g>
+</svg>

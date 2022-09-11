@@ -1,0 +1,94 @@
+svg {
+    fill: none;
+    stroke: #111A2B;
+    stroke-miterlimit: 10;
+    stroke-width: 25px;
+}
+
+.red {
+    stroke: #F806CC;
+}
+.blue {
+    stroke: #5800FF;
+}
+.green {
+    stroke: #F7EC09;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+svg g#first path#S {
+    stroke-dasharray: 344;
+    stroke-dashoffset: 344;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 0s;
+}
+
+svg g#first path#O {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 0.4s;
+}
+
+svg g#first path#U {
+    stroke-dasharray: 266;
+    stroke-dashoffset: 266;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 0.6s;
+}
+
+svg g#first path#R {
+    stroke-dasharray: 276;
+    stroke-dashoffset: 276;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 0.8s;
+}
+
+svg g#first path#A {
+    stroke-dasharray: 328;
+    stroke-dashoffset: 328;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 1.0s;
+}
+
+svg g#first path#J {
+    stroke-dasharray: 158;
+    stroke-dashoffset: 158;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 1.2s;
+}
+
+svg g#first path#E-1 {
+    stroke-dasharray: 332;
+    stroke-dashoffset: 332;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 1.4s;
+}
+
+svg g#first path#E-2 {
+    stroke-dasharray: 332;
+    stroke-dashoffset: 332;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 1.6s;
+}
+
+svg g#first path#T {
+    stroke-dasharray: 228;
+    stroke-dashoffset: 228;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 1.8s;
+}
+
+svg g#last path#D {
+    stroke-dasharray: 268;
+    stroke-dashoffset: 268;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 1.0s;
+}
+
+svg g#last path#E-3 {
+    stroke-dasharray: 332;
+    stroke-dashoffset: 332;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 1.2s;
+}
+
+svg g#last path#Y {
+    stroke-dasharray: 266;
+    stroke-dashoffset: 266;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) infinite alternate 1.4s;
+}

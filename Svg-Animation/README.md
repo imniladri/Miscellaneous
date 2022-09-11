@@ -23,3 +23,11 @@ Title | Preview | Code
 3.  Svg Text:
     | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-Text)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-Text)
+
+4.  Svg Sristi:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-Sristi)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-Sristi)
+
+5.  Svg Friend Name:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-FriendName)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-FriendName)
