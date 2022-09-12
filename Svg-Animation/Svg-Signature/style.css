@@ -1,0 +1,81 @@
+svg {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+svg path {
+    fill: none;
+    stroke: #00ffab;
+    stroke-width: 4px;
+}
+
+svg ellipse {
+    fill: #00ffab;
+    stroke: none;
+    stroke-width: none;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes opacity {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hue {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(360deg);
+    }
+    100% {
+        filter: hue-rotate(0deg);
+    }
+}
+
+svg g path#part-1 {
+    stroke-dasharray: 822;
+    stroke-dashoffset: 822;
+    animation: line 1s cubic-bezier(0.65, 0, 0.35, 1) forwards 0s,
+        hue 5s linear infinite 0s;
+}
+
+svg g path#part-2 {
+    stroke-dasharray: 608;
+    stroke-dashoffset: 608;
+    animation: line 0.8s cubic-bezier(0.65, 0, 0.35, 1) forwards 0.8s,
+        hue 5s linear infinite 0s;
+}
+
+svg g path#part-3 {
+    stroke-dasharray: 698;
+    stroke-dashoffset: 698;
+    animation: line 1.2s cubic-bezier(0.65, 0, 0.35, 1) forwards 1.8s,
+        hue 5s linear infinite 0s;
+}
+
+svg g path#part-4 {
+    stroke-dasharray: 2386;
+    stroke-dashoffset: 2386;
+    animation: line 1.8s cubic-bezier(0.65, 0, 0.35, 1) forwards 2.4s,
+        hue 5s linear infinite 0s;
+}
+
+svg g ellipse#part-1 {
+    opacity: 0;
+    animation: opacity 0.8s cubic-bezier(0.65, 0, 0.35, 1) forwards 0.8s,
+        hue 5s linear infinite 0s;
+}
+
+svg g ellipse#part-2 {
+    opacity: 0;
+    animation: opacity 0.8s cubic-bezier(0.65, 0, 0.35, 1) forwards 2.4s,
+        hue 5s linear infinite 0s;
+}

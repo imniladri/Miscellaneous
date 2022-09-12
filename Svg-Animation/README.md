@@ -31,3 +31,7 @@ Title | Preview | Code
 5.  Svg Friend Name:
     | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-FriendName)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-FriendName)
+
+6.  Svg Signature:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-Signature)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-Signature)
