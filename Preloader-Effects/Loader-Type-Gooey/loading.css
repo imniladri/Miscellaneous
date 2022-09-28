@@ -1,0 +1,139 @@
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111a2b;
+    z-index: 9999;
+    opacity: 1;
+    transition: all 0.8s ease;
+}
+
+/* The loader container */
+
+.loader {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    filter: url(#gooey);
+    animation: rotation 2s ease-in-out infinite;
+}
+
+.loader .dot {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #000;
+    transform: scale(0.45);
+}
+
+.loader .dot.dot-1 {
+    background: #f806cc;
+    animation: dot-1 2s ease infinite, zIndex 6s -2s ease infinite;
+}
+
+.loader .dot.dot-2 {
+    background: #5800ff;
+    animation: dot-2 2s ease infinite, zIndex 6s -4s ease infinite;
+}
+
+.loader .dot.dot-3 {
+    background: #f7ec09;
+    animation: dot-3 2s ease infinite, zIndex 6s ease infinite;
+}
+
+@keyframes rotation {
+    55% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    80% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes zIndex {
+    0%,
+    100% {
+        z-index: 3;
+    }
+    33.3% {
+        z-index: 2;
+    }
+    66.6% {
+        z-index: 1;
+    }
+}
+
+@keyframes dot-1 {
+    20% {
+        transform: scale(0.45);
+    }
+    45% {
+        transform: translate(16px, 12px) scale(0.45);
+    }
+    60% {
+        transform: translate(60px, 40px) scale(0.45);
+    }
+    80% {
+        transform: translate(60px, 40px) scale(0.45);
+    }
+    100% {
+        transform: translateY(0px) scale(0.45);
+    }
+}
+
+@keyframes dot-2 {
+    20% {
+        transform: scale(0.45);
+    }
+    45% {
+        transform: translate(-16px, 12px) scale(0.45);
+    }
+    60% {
+        transform: translate(-60px, 40px) scale(0.45);
+    }
+    80% {
+        transform: translate(-60px, 40px) scale(0.45);
+    }
+    100% {
+        transform: translateY(0px) scale(0.45);
+    }
+}
+
+@keyframes dot-3 {
+    20% {
+        transform: scale(0.45);
+    }
+    45% {
+        transform: translateY(-18px) scale(0.45);
+    }
+    60% {
+        transform: translateY(-70px) scale(0.45);
+    }
+    80% {
+        transform: translateY(-70px) scale(0.45);
+    }
+    100% {
+        transform: translateY(0px) scale(0.45);
+    }
+}
