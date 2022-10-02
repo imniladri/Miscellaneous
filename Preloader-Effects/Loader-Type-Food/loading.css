@@ -1,0 +1,254 @@
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    clip-path: circle(100% at 50% 50%);
+    z-index: 9999;
+    transition: all 0.8s ease;
+    transition-delay: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.loader {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+/*
+    Image Burger:
+    Background: Burger
+    Layers: Top Bun , Leaves , Jelly , Cheese , Meat , Bottom Bun
+    Hands: Fork (Lft) , Knife (Rgt)
+*/
+
+div.loader img.burger {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: auto;
+    opacity: 0.05;
+}
+
+div.loader img.top_bun {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: auto;
+    z-index: 7;
+    animation: top_bun 1s ease-in-out infinite;
+}
+
+div.loader img.leaves {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: auto;
+    z-index: 6;
+    animation: leaves 1s ease-in-out infinite;
+}
+
+div.loader img.jelly {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: auto;
+    z-index: 5;
+    animation: jelly 1s ease-in-out infinite;
+}
+
+div.loader img.cheese {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: auto;
+    z-index: 4;
+    animation: cheese 1s ease-in-out infinite;
+}
+
+div.loader img.meat {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: auto;
+    z-index: 3;
+    animation: meat 1s ease-in-out infinite;
+}
+
+div.loader img.bottom_bun {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: auto;
+    z-index: 2;
+    animation: bottom_bun 1s ease-in-out infinite;
+}
+
+@keyframes top_bun {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, -130%) rotate(-8deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@keyframes leaves {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, -155%) rotate(6deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@keyframes jelly {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, -90%) rotate(-8deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@keyframes cheese {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, 0%) rotate(-4deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@keyframes meat {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, 80%) rotate(6deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@keyframes bottom_bun {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, 140%) rotate(-8deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+div.loader img.fork {
+    position: absolute;
+    top: 46%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 90px;
+    z-index: 1;
+    animation: fork 0.35s ease-in-out infinite;
+}
+
+div.loader img.knife {
+    position: absolute;
+    top: 47%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 90px;
+    z-index: 1;
+    animation: knife 0.35s ease-in-out infinite;
+}
+
+@keyframes fork {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(10deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@keyframes knife {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(-10deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+/* Loader for Object */
+
+div.loader object {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+svg.loader {
+    margin: auto;
+    background: transparent;
+    display: block;
+}
+
+svg.loader circle {
+    fill: none;
+    stroke-width: 5;
+}
+
+svg.loader circle.circle1 {
+    stroke: #20fdee;
+}
+svg.loader circle.circle2 {
+    stroke: #0075f6;
+}
+svg.loader circle.circle3 {
+    stroke: #ff005c;
+}
