@@ -1,3 +1,1 @@
 theme: jekyll-theme-cayman
-- name: Deploy PR Preview
-  uses: rossjrw/pr-preview-action@v1.1.1
