@@ -29,6 +29,11 @@ div#card-type-1.card {
     border-radius: 10px;
     overflow: hidden;
     z-index: 1;
+    transition: all 0.3s ease;
+}
+
+div#card-type-1.card:hover {
+    transform: translateY(-20px);
 }
 
 div#card-type-1.card::before {
@@ -133,6 +138,11 @@ div#card-type-2.card {
     border-radius: 10px;
     overflow: hidden;
     z-index: 1;
+    transition: all 0.3s ease;
+}
+
+div#card-type-2.card:hover {
+    transform: translateY(-20px);
 }
 
 div#card-type-2.card::before {

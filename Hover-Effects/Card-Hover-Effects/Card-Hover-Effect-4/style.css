@@ -4,76 +4,153 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
     height: 100vh;
-    background: #fafafa;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #021623;
     font-family: "Outfit", sans-serif;
 }
 
-.card {
+/* ============================== Card Container ============================== */
+
+div.card {
+    margin: 20px;
     position: relative;
-    padding: 10px;
-    width: 350px;
-    height: 300px;
-    background: #f8f8ff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    color: #ffffff;
+    background: #010d15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    z-index: 1;
 }
 
-.card .card_front,
-.card .card_back {
-    position: relative;
-    background: #f8f8ff;
-    transition: all 1s ease;
-    transform-style: preserve-3d;
+div.card:hover {
+    transform: translateY(-20px);
 }
 
-.card .card_front {
-    width: 100%;
-    height: auto;
-    z-index: 10;
-}
-.card .card_back {
+div.card::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
-    transform: rotateY(-180deg);
 }
 
-.card:hover .card_front {
-    transform: rotateY(180deg);
-    z-index: -1;
-}
-.card:hover .card_back {
-    transform: rotateY(0deg);
-    z-index: 10;
-}
-
-.card img {
+div.card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    transform: translateZ(10px);
-    border-radius: 10px;
+    filter: blur(10px);
 }
 
-.card h2 {
-    margin: 10px 5px;
+/* ==================== Card Color 1 ==================== */
+
+div.card.card_1:before,
+div.card.card_1:after {
+    background: linear-gradient(45deg, #ffbc00, #ff0059);
+}
+
+/* ==================== Card Color 2 ==================== */
+
+div.card.card_2:before,
+div.card.card_2:after {
+    background: linear-gradient(315deg, #4dff03, #00d0ff);
+}
+
+/* ==================== Card Color 3 ==================== */
+
+div.card.card_3:before,
+div.card.card_3:after {
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+}
+
+/* ============================== Card Frame ============================== */
+
+div.card .card_frame {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+div.card .card_frame::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -15%;
+    width: 70%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transform: skewX(-10deg);
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+div.card:hover .card_frame::before {
+    left: -10%;
+    /* transform: skewX(10deg); */
+}
+
+/* ============================== Card Body ============================== */
+
+div.card .card_body {
+    position: relative;
+    margin: auto;
+    padding: 20px 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    z-index: 2;
+}
+
+div.card .card_body h2 {
+    margin: 10px 0;
+    color: #ffffff;
     font-size: 30px;
-    font-weight: 600;
-    color: #334756;
-    letter-spacing: 0.5px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 1px;
 }
 
-.card p {
-    margin: 10px 5px;
-    font-size: 22px;
+div.card .card_body p {
+    margin: 5px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+div.card .card_body a {
+    margin: 10px 0;
+    padding: 8px 14px 10px;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
     font-weight: 500;
-    color: #334756;
-    letter-spacing: 0.5px;
+    color: #021623;
+    background: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
 }

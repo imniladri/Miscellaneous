@@ -27,3 +27,7 @@ Title | Preview | Code
 4.  Card Hover Effect 4:
     | [Preview](https://imniladri.github.io/Miscellaneous/Hover-Effects/Card-Hover-Effects/Card-Hover-Effect-4)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hover-Effects/Card-Hover-Effects/Card-Hover-Effect-4)
+
+5.  Card Hover Effect 5:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Hover-Effects/Card-Hover-Effects/Card-Hover-Effect-5)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hover-Effects/Card-Hover-Effects/Card-Hover-Effect-5)
