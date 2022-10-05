@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap");
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111a2b;
+    z-index: 9999;
+    opacity: 1;
+    transition: all 0.8s ease;
+}
+
+.loading {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.loading h2 {
+    margin: auto;
+    position: relative;
+    font-size: 22px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    color: #0a101b;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.loading h2::before {
+    content: "Loading";
+    position: absolute;
+    color: #4facfe;
+    opacity: 1;
+    animation: blink 1s ease-in-out infinite;
+}
+
+.loading span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 5.5px;
+    height: 20.5px;
+    color: #4facfe;
+    background: #0a101b;
+    border-radius: 2px;
+    transform: rotate(calc(18deg * var(--i))); /* 360deg/20 Spans = 18deg */
+    transform-origin: 0 80px; /* .loading [width <=> height => 200px / 2 => 100px] */
+    animation: animate 2s ease-in-out infinite;
+    animation-delay: calc(0.05s * var(--i)); /* 1/20 = 0.05 */
+}
+
+@keyframes animate {
+    0%,
+    50% {
+        background: #0a101b;
+        box-shadow: none;
+    }
+    50.1%,
+    100% {
+        background: currentColor;
+        box-shadow: 0 0 5px currentColor;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
