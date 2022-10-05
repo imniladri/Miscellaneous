@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #021623;
+    font-family: "Outfit", sans-serif;
+}
+
+/* ============================================= Card Type 1 ============================================= */
+
+div#card-type-1.card {
+    position: relative;
+    margin: 20px;
+    padding: 4px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+div#card-type-1.card::before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: conic-gradient(
+        transparent 0%,
+        transparent 50%,
+        transparent 50%,
+        #fdff00 100%
+    );
+
+    animation: animate 3s linear infinite;
+    animation-delay: 0s;
+    z-index: -1;
+}
+
+div#card-type-1.card::after {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: conic-gradient(
+        transparent 0%,
+        transparent 50%,
+        transparent 50%,
+        #fa2fb5 100%
+    );
+
+    animation: animate 3s linear infinite;
+    animation-delay: -1.5s;
+    z-index: -1;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+div#card-type-1.card .card_inner {
+    position: relative;
+    margin: auto;
+    padding: 20px 30px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    border-radius: 10px;
+    background: #0c1022;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+div#card-type-1.card .card_inner h2 {
+    margin: 10px 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+div#card-type-1.card .card_inner p {
+    margin: 10px 0 20px;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+div#card-type-1.card .card_inner a {
+    margin: 10px 0;
+    padding: 6px 12px 8px;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    background: #ffffff;
+    color: #021623;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* ============================================= Card Type 2 ============================================= */
+
+div#card-type-2.card {
+    position: relative;
+    margin: 20px;
+    padding: 4px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+div#card-type-2.card::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 200%;
+    background: linear-gradient(90deg, #b721ff 0%, #21d4fd 100%);
+    animation: animate 4s linear infinite;
+    z-index: -1;
+}
+
+div#card-type-2.card::after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 150px;
+    background: linear-gradient(180deg, #f83600 0%, #f9d423 100%);
+    animation: animate 4s linear infinite;
+    z-index: -1;
+}
+
+div#card-type-2.card .card_inner {
+    position: relative;
+    margin: auto;
+    padding: 20px 30px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    border-radius: 10px;
+    background: #0c1022;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+div#card-type-2.card .card_inner h2 {
+    margin: 10px 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+div#card-type-2.card .card_inner p {
+    margin: 10px 0 20px;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+div#card-type-2.card .card_inner a {
+    margin: 10px 0;
+    padding: 6px 12px 8px;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    background: #ffffff;
+    color: #021623;
+    border-radius: 6px;
+    text-decoration: none;
+}
