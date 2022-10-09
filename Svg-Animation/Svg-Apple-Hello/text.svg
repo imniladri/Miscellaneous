@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="apple_hello" version="1.1" viewBox="0 0 1634 540.04">
+    <defs>
+        <style>
+            @import url(style.css);
+        </style>
+
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#087a92" stop-opacity="1" />
+            <stop offset="5%" stop-color="#5dac84" stop-opacity="1" />
+            <stop offset="10%" stop-color="#a1db6e" stop-opacity="1" />
+            <stop offset="15%" stop-color="#d6d90d" stop-opacity="1" />
+            <stop offset="20%" stop-color="#fad507" stop-opacity="1" />
+            <stop offset="25%" stop-color="#ffd16c" stop-opacity="1" />
+            <stop offset="30%" stop-color="#ffb751" stop-opacity="1" />
+            <stop offset="35%" stop-color="#ff9e38" stop-opacity="1" />
+            <stop offset="40%" stop-color="#fd8d55" stop-opacity="1" />
+            <stop offset="45%" stop-color="#fa774f" stop-opacity="1" />
+            <stop offset="50%" stop-color="#f45443" stop-opacity="1" />
+            <stop offset="55%" stop-color="#e27178" stop-opacity="1" />
+            <stop offset="60%" stop-color="#bf7393" stop-opacity="1" />
+            <stop offset="65%" stop-color="#9c74ac" stop-opacity="1" />
+            <stop offset="70%" stop-color="#856eb1" stop-opacity="1" />
+            <stop offset="75%" stop-color="#6a62ac" stop-opacity="1" />
+            <stop offset="80%" stop-color="#667dcb" stop-opacity="1" />
+            <stop offset="85%" stop-color="#6a95dc" stop-opacity="1" />
+            <stop offset="90%" stop-color="#689bdd" stop-opacity="1" />
+            <stop offset="95%" stop-color="#59a1d6" stop-opacity="1" />
+            <stop offset="100%" stop-color="#7ab4dc" stop-opacity="1" />
+        </linearGradient>
+    </defs>
+    <title>Apple Hello</title>
+    <g>
+        <path d="M168,757.94c141.91-83.17,300-213.35,319.9-390.61,9.43-84.19-75.49-98.56-103-24.25-22.23,59.94-38.3,247.35-51.09,337.37s-15.59,102.41-15.59,102.41c7.86-52.31,29.64-157.6,66-200.7,40-47.36,117.83-59,127.29,19.53,6.73,55.9-31,139.41,6.06,167.7s130,4,169-22.23c13-7.87,25.4-15.94,25.4-15.94,35.17-21.11,75.12-57.52,89.76-109,22.48-79.05-64.73-113.43-115.16-55.53-34.59,39.71-44,118.08-6.1,163,35.69,47.81,156.69,89.82,263.37-22.24,11.51-12.1,18.85-20.2,18.85-20.2,30.09-37.94,95-125.68,116.51-202.72,26.94-96.31,32.33-164.33-4-181.84-40.4-19.45-90.24,34.65-112.47,145.77C947,526.72,943.84,568,943.84,627.29V630c-1.13,49.84,13.47,152.74,99.67,154.9,100.35,2.51,170.84-90.92,202-137.39l2-3.37c26.94-41.75,73-133.79,92.27-210.79,22.22-88.6,10.38-119.49-20.21-130-38.39-13.18-81.49,39.06-102.36,130-15.72,68.44-32,155-23.66,222.53,4.72,56.58,48.49,126.08,103.12,128.34,72.07,3,123.25-51.85,156.25-153.55,0,0,29.71-96.88,102.37-92.26,80.27,0,94.05,76.1,90.24,115.83-.9,41.53-23.84,125.54-108.43,129.31S1437.49,699,1454.33,627c8.08-28.29,39.19-88.56,96.3-88.56,71.39,0,66,34.34,117.19,33,40.94-1.08,73.18-29.19,84.18-43.1" transform="translate(-143 -269.89)" />
+    </g>
+</svg>
