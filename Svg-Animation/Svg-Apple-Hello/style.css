@@ -1,0 +1,21 @@
+svg {
+    fill: none;
+    /* stroke: #fafafa; */
+    stroke: url(#grad);
+    stroke-width: 50px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+svg g path {
+    stroke-dasharray: 6296;
+    stroke-dashoffset: 6296;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

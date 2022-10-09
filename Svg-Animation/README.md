@@ -29,9 +29,13 @@ Title | Preview | Code
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-Sristi)
 
 5.  Svg Friend Name:
-    | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-FriendName)
-    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-FriendName)
+    | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-Friend-Name)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-Friend-Name)
 
 6.  Svg Signature:
     | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-Signature)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-Signature)
+
+7.  Svg Apple Hello:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-Apple-Hello)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-Apple-Hello)
