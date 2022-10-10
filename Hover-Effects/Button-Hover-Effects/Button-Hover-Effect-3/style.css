@@ -1,1 +1,44 @@
-/* Style */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;1,100;1,300;1,400&family=Yantramanav:wght@100;300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #060606;
+}
+
+/* header */
+header {
+    text-align: center;
+    ;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    height: 24px;
+    top: 31px;
+    left: 583px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(63, 76, 139, 0.2);
+}
+
+nav li a:hover {
+    cursor: pointer;
+    color: #42FF00;
+}
