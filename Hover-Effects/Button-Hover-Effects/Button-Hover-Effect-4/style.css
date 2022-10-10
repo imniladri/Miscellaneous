@@ -1,1 +1,71 @@
 /* Style */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#item1{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.1);
+    padding: 10px 13px;
+    border-radius: 5px;
+    margin: 20px;
+    background: linear-gradient(black,black);    
+  transition: 0.5s all;
+  border: 2px solid white;
+}
+#item1:hover{
+    /* note background-color:white  wont work*/
+    background: linear-gradient(#fff,#fff);
+    color: black;
+    transform: scale(1.1);
+    border: 2px solid rgb(0, 0, 0);
+}
+#item2{
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  background: linear-gradient(black,black);    
+transition: 0.5s all;
+border: 2px solid white;
+}
+#item2:hover{
+    /* note background-color:white  wont work*/
+  background: linear-gradient(#fff,#fff);
+    color: black;
+    transform: scale(1.1);
+    border: 2px solid rgb(0, 0, 0);
+}
+#item3{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.1);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    background: linear-gradient(black,black);    
+  transition: 0.5s all;
+  border: 2px solid white;
+}
+#item3:hover{
+  /* note background-color:white  wont work*/
+   background: linear-gradient(#fff,#fff);
+    color: black;
+    transform: scale(1.1);
+    border: 2px solid rgb(0, 0, 0);
+}
