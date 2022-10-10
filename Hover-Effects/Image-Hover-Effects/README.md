@@ -27,3 +27,7 @@ Title | Preview | Code
 4.  Image Hover Effect 4:
     | [Preview](https://imniladri.github.io/Miscellaneous/Hover-Effects/Image-Hover-Effects/Image-Hover-Effect-4)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hover-Effects/Image-Hover-Effects/Image-Hover-Effect-4)
+
+5.  Image Hover Effect 5:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Hover-Effects/Image-Hover-Effects/Image-Hover-Effect-5)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hover-Effects/Image-Hover-Effects/Image-Hover-Effect-5)
