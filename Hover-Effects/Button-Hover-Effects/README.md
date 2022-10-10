@@ -35,3 +35,15 @@ Title | Preview | Code
 6.  Button Hover Effect 6:
     | [Preview](https://imniladri.github.io/Miscellaneous/Hover-Effects/Button-Hover-Effects/Button-Hover-Effect-6)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hover-Effects/Button-Hover-Effects/Button-Hover-Effect-6)
+
+7.  Button Hover Effect 7:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Hover-Effects/Button-Hover-Effects/Button-Hover-Effect-7)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hover-Effects/Button-Hover-Effects/Button-Hover-Effect-7)
+
+8.  Button Hover Effect 8:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Hover-Effects/Button-Hover-Effects/Button-Hover-Effect-8)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hover-Effects/Button-Hover-Effects/Button-Hover-Effect-8)
+
+9.  Button Hover Effect 9:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Hover-Effects/Button-Hover-Effects/Button-Hover-Effect-9)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Hover-Effects/Button-Hover-Effects/Button-Hover-Effect-9)

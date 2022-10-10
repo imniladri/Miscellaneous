@@ -25,18 +25,18 @@ div.btn-groups {
 div.btn-groups a {
     position: relative;
     margin: 20px;
-    padding: 20px 40px;
+    padding: 15px 55px;
     font-size: 20px;
     font-family: "Outfit", sans-serif;
     font-weight: 500;
     color: #ffffff;
-    background: rgba(255, 255, 255, 0.2);
-    /* background: var(--bgColor); */
+    background: var(--grad);
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 6px;
+    border-radius: 50px;
     letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     z-index: 1;
     transition: all 0.2s ease-in-out;
@@ -46,42 +46,18 @@ div.btn-groups a::before {
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    left: -100%;
     width: 100%;
-    height: 50%;
-    background: var(--hoverColor);
-    z-index: -1;
-    transition: transform 0.3s ease-in-out;
-
-    transform: scaleX(0);
-    transform-origin: right center;
-}
-
-div.btn-groups a::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 50%;
-    background: var(--hoverColor);
-    z-index: -1;
-    transition: transform 0.3s ease-in-out;
-
-    transform: scaleX(0);
-    transform-origin: left center;
-}
-
-div.btn-groups a:hover {
-    color: var(--textColor);
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.5),
+        transparent
+    );
+    transition: all 0.5s ease-in-out;
 }
 
 div.btn-groups a:hover:before {
-    transform: scaleX(1);
-    transform-origin: left center;
-}
-
-div.btn-groups a:hover:after {
-    transform: scaleX(1);
-    transform-origin: right center;
+    left: 100%;
 }
