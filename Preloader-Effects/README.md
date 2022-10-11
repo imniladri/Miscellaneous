@@ -48,34 +48,38 @@ Title | Preview | Code
     | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-Infinite-Liquid)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-Infinite-Liquid)
 
-10. Loader Type Letter:
+10. Loader Type Infinity Neon:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-Infinity-Neon)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-Infinity-Neon)
+
+11. Loader Type Letter:
     | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-Letter)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-Letter)
 
-11. Loader Type Neon:
+12. Loader Type Neon:
     | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-Neon)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-Neon)
 
-12. Loader Type Progress:
+13. Loader Type Progress:
     | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-Progress)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-Progress)
 
-13. Loader Type Rainbow:
+14. Loader Type Rainbow:
     | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-Rainbow)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-Rainbow)
 
-14. Loader Type Rotate:
+15. Loader Type Rotate:
     | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-Rotate)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-Rotate)
 
-15. Loader Type Spinner:
+16. Loader Type Spinner:
     | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-Spinner)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-Spinner)
 
-16. Loader Type Square:
+17. Loader Type Square:
     | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-Square)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-Square)
 
-17. Loader Type System:
+18. Loader Type System:
     | [Preview](https://imniladri.github.io/Miscellaneous/Preloader-Effects/Loader-Type-System)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Preloader-Effects/Loader-Type-System)

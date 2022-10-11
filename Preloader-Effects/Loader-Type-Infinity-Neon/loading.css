@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap");
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111a2b;
+    z-index: 9999;
+    opacity: 1;
+    transition: all 0.8s ease;
+}
+
+.loading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ************************************************************ */
+
+.loading h2 {
+    margin: 15px auto;
+    position: relative;
+    font-size: 25px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    color: #0a101b;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.loading h2::before {
+    content: "Loading";
+    position: absolute;
+    color: #fafafa;
+    opacity: 1;
+    animation: blink 2s ease-in-out infinite;
+}
+
+/* ************************************************************ */
+
+.loading .infinity {
+    position: relative;
+    display: flex;
+    animation: hueColor 8s linear infinite;
+}
+
+.loading .infinity .circle {
+    position: relative;
+    margin: 0 -5px;
+    width: 100px;
+    height: 100px;
+}
+
+.loading .infinity .circle:nth-child(1) {
+    transform: rotate(0deg);
+}
+.loading .infinity .circle:nth-child(2) {
+    transform: rotate(-180deg);
+}
+
+.loading .infinity .circle span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(calc(18deg * var(--i)));
+}
+
+.loading .infinity .circle span::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 5px);
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background: #00ff0a;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #00ff0a, 0 0 10px #00ff0a;
+    transform: scale(0.1);
+    animation: animate 4s linear infinite;
+}
+
+.loading .infinity .circle:nth-child(1) span::before {
+    animation-delay: calc(0.1s * var(--i));
+}
+.loading .infinity .circle:nth-child(2) span::before {
+    animation-delay: calc(-0.1s * var(--i));
+}
+
+/* ************************************************************ */
+
+@keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+    50%,
+    100% {
+        transform: scale(0.1);
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hueColor {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
