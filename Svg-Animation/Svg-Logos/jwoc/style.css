@@ -1,0 +1,64 @@
+svg#jwoc_logo {
+    fill: none;
+    stroke: url(#grad);
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    transition: all 1s linear;
+    animation: fill 1s ease forwards 5s;
+}
+
+svg#jwoc_logo circle {
+    fill: none;
+    stroke: #1d9dcd;
+    animation: fill-circle 1s ease forwards 1.5s;
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: #f7f0c2;
+    }
+}
+
+@keyframes fill-circle {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: #062465;
+    }
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+svg#jwoc_logo path#J {
+    stroke-width: 8px;
+    stroke-dasharray: 848;
+    stroke-dashoffset: 848;
+    animation: line 2s ease forwards 0s;
+}
+svg#jwoc_logo path#W {
+    stroke-width: 8px;
+    stroke-dasharray: 920;
+    stroke-dashoffset: 920;
+    animation: line 2s ease forwards 1s;
+}
+svg#jwoc_logo path#O {
+    stroke-dasharray: 630;
+    stroke-dashoffset: 630;
+    animation: line 2s ease forwards 2s;
+}
+svg#jwoc_logo path#C {
+    stroke-width: 8px;
+    stroke-dasharray: 810;
+    stroke-dashoffset: 810;
+    animation: line 2s ease forwards 3s;
+}

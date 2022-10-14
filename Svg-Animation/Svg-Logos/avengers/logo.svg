@@ -1,0 +1,24 @@
+<svg version="1.1" id="avengers_logo" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -3 195.10 230.10">
+    <style>
+        @import url(style.css);
+    </style>
+    <linearGradient id="grad_fill" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#764AF1" stop-opacity="1" />
+        <stop offset="100%" stop-color="#25316D" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="grad_stroke" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#FAC213" stop-opacity="1" />
+        <stop offset="100%" stop-color="#F77E21" stop-opacity="1" />
+    </linearGradient>
+
+    <linearGradient id="grad_transparent" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="rgba(0,0,0,0)" stop-opacity="0" />
+        <stop offset="100%" stop-color="rgba(0,0,0,0)" stop-opacity="0" />
+    </linearGradient>
+
+    <title>Avengers Logo</title>
+    <g>
+        <path d="M91.256 43.595c-42.332 2.172-75.995 37.577-75.995 80.931 0 14.627 3.832 28.349 10.535 40.195l-8.118 15.765C6.548 164.704 0 145.388 0 124.526c0-53.278 42.704-96.473 95.382-96.473.753 0 1.504.009 2.252.026L111.412 0h29.434v39.696c29.733 16.337 49.918 48.2 49.918 84.829 0 53.279-42.704 96.473-95.382 96.473-16.079 0-31.229-4.024-44.519-11.132l6.712-13.875c11.262 6.107 24.134 9.571 37.807 9.571 44.249 0 80.121-36.282 80.121-81.037 0-27.971-14.013-52.633-35.325-67.197v76.695l-26.897-25.442V50.453l-33.218 78.891h33.218V116.68l31.141 29.274-32.179 24.705V157.58H68.437l-28.855 65.189-35.708-.699z" />
+        <path d="M140.125 179.637H112.21l27.915-23.914z" />
+    </g>
+</svg>

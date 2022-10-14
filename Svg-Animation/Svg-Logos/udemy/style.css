@@ -1,0 +1,43 @@
+svg#udemy_logo {
+    stroke-miterlimit: 10;
+}
+
+svg#udemy_logo g polygon {
+    fill: none;
+    stroke: #a435f0;
+    stroke-width: 1.5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 126;
+    stroke-dashoffset: 126;
+    animation: line 1s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill 0.3s linear forwards 1s;
+}
+
+svg#udemy_logo g path {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 12px;
+    stroke-linecap: square;
+    stroke-linejoin: miter;
+    stroke-dasharray: 104;
+    stroke-dashoffset: 104;
+    animation: line 1s cubic-bezier(0.37, 0, 0.63, 1) forwards 1s;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+        stroke: #a435f0;
+    }
+    100% {
+        fill: #a435f0;
+        stroke: transparent;
+    }
+}

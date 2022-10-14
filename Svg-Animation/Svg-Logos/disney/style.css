@@ -1,0 +1,32 @@
+svg#disney_logo {
+    fill: none;
+    stroke: url(#grad);
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    animation: fill 0.6s linear forwards 3s;
+}
+
+svg#disney_logo g path {
+    stroke-dasharray: 898;
+    stroke-dashoffset: 898;
+    animation: line 8s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+        stroke: url(#grad);
+    }
+    100% {
+        fill: url(#grad);
+        stroke: transparent;
+    }
+}

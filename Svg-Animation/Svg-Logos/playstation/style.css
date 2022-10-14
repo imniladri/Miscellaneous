@@ -1,0 +1,32 @@
+svg#playstation_logo {
+    fill: none;
+    stroke: #0070d1;
+    stroke-width: 0.6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    animation: fill 0.6s linear forwards 3s;
+}
+
+svg#playstation_logo g path {
+    stroke-dasharray: 234;
+    stroke-dashoffset: 234;
+    animation: line 6s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+        stroke: #0070d1;
+    }
+    100% {
+        fill: #0070d1;
+        stroke: transparent;
+    }
+}

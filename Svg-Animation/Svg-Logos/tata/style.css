@@ -1,0 +1,32 @@
+svg#tata_logo {
+    fill: none;
+    stroke: #3d7edb;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    animation: fill 0.6s linear forwards 3s;
+}
+
+svg#tata_logo g path {
+    stroke-dasharray: 1054;
+    stroke-dashoffset: 1054;
+    animation: line 8s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+        stroke: #3d7edb;
+    }
+    100% {
+        fill: #3d7edb;
+        stroke: transparent;
+    }
+}

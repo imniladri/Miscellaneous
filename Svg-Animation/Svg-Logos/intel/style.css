@@ -1,0 +1,66 @@
+svg#intel_logo {
+    fill: none;
+    stroke-width: 5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+svg#intel_logo g rect.dot {
+    stroke: #00c7fd;
+    stroke-dasharray: 112;
+    stroke-dashoffset: 112;
+    animation: line 2s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-dot 0.6s linear forwards 2s;
+}
+
+svg#intel_logo g path.text {
+    stroke: #ffffff;
+    stroke-dasharray: 2158;
+    stroke-dashoffset: 2158;
+    animation: line 6s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-text 0.6s linear forwards 2s;
+}
+
+svg#intel_logo g path.mark {
+    opacity: 0;
+    fill: #ffffff;
+    stroke: none;
+    stroke-dasharray: 174;
+    stroke-dashoffset: 174;
+    animation: opacity 0.2s linear forwards 2s;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes opacity {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fill-dot {
+    0% {
+        fill: transparent;
+        stroke: #00c7fd;
+    }
+    100% {
+        fill: #00c7fd;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-text {
+    0% {
+        fill: transparent;
+        stroke: #ffffff;
+    }
+    100% {
+        fill: #ffffff;
+        stroke: transparent;
+    }
+}

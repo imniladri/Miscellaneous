@@ -1,0 +1,148 @@
+svg#nasa_logo {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+/* ================================================================= */
+
+svg#nasa_logo g.bg circle {
+    fill: none;
+    stroke: #0b3d91;
+    stroke-width: 1.5px;
+    stroke-dasharray: 252;
+    stroke-dashoffset: 252;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-bg 0.6s linear forwards 3s;
+}
+
+/* ================================================================= */
+
+svg#nasa_logo g.stars {
+    opacity: 0;
+    fill: #ffffff;
+    stroke: none;
+    animation: opacity 0.4s linear forwards 4s;
+}
+
+/* ================================================================= */
+
+svg#nasa_logo g.lines path.orange {
+    fill: none;
+    stroke: #fc3d21;
+    stroke-width: 1px;
+    stroke-dasharray: 406;
+    stroke-dashoffset: 406;
+    animation: line 5s cubic-bezier(0.37, 0, 0.63, 1) forwards 4s,
+        fill-line-orange 0.6s linear forwards 7s;
+}
+
+svg#nasa_logo g.lines path.white {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 1px;
+    stroke-dasharray: 406;
+    stroke-dashoffset: 406;
+    animation: line 5s cubic-bezier(0.37, 0, 0.63, 1) forwards 4s,
+        fill-line-white 0.6s linear forwards 7s;
+}
+
+/* ================================================================= */
+
+svg#nasa_logo g.text path:nth-child(1) {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 0.8px;
+    stroke-dasharray: 98;
+    stroke-dashoffset: 98;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards 7s,
+        fill-text 0.6s linear forwards 10s;
+}
+
+svg#nasa_logo g.text path:nth-child(2) {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 0.8px;
+    stroke-dasharray: 82;
+    stroke-dashoffset: 82;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards 7s,
+        fill-text 0.6s linear forwards 10s;
+}
+
+svg#nasa_logo g.text path:nth-child(3) {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 0.8px;
+    stroke-dasharray: 90;
+    stroke-dashoffset: 90;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards 7s,
+        fill-text 0.6s linear forwards 10s;
+}
+
+svg#nasa_logo g.text path:nth-child(4) {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 0.8px;
+    stroke-dasharray: 84;
+    stroke-dashoffset: 84;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards 7s,
+        fill-text 0.6s linear forwards 10s;
+}
+
+/* ================================================================= */
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes opacity {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fill-bg {
+    0% {
+        fill: transparent;
+        stroke: #0b3d91;
+    }
+    100% {
+        fill: #0b3d91;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-text {
+    0% {
+        fill: transparent;
+        stroke: #ffffff;
+    }
+    100% {
+        fill: #ffffff;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-line-orange {
+    0% {
+        fill: transparent;
+        stroke: #fc3d21;
+    }
+    100% {
+        fill: #fc3d21;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-line-white {
+    0% {
+        fill: transparent;
+        stroke: #ffffff;
+    }
+    100% {
+        fill: #ffffff;
+        stroke: transparent;
+    }
+}

@@ -1,0 +1,51 @@
+svg#unacademy_logo {
+    fill: none;
+    stroke-width: 8px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+svg#unacademy_logo g path:nth-child(1) {
+    stroke: #2d81f7;
+    stroke-dasharray: 678;
+    stroke-dashoffset: 678;
+    animation: line 2s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-blue 0.6s linear forwards 2s;
+}
+
+svg#unacademy_logo g path:nth-child(2) {
+    stroke: #08bd80;
+    stroke-dasharray: 336;
+    stroke-dashoffset: 336;
+    animation: line 2s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-green 0.6s linear forwards 2s;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill-blue {
+    0% {
+        fill: transparent;
+        stroke: #2d81f7;
+    }
+    100% {
+        fill: #2d81f7;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-green {
+    0% {
+        fill: transparent;
+        stroke: #08bd80;
+    }
+    100% {
+        fill: #08bd80;
+        stroke: transparent;
+    }
+}

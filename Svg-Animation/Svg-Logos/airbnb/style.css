@@ -1,0 +1,20 @@
+svg#airbnb_logo {
+    fill: none;
+    stroke: #ff385c;
+    stroke-width: 24px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+svg#airbnb_logo path {
+    stroke-dasharray: 1614;
+    stroke-dashoffset: 1614;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

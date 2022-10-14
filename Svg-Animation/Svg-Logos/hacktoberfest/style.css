@@ -1,0 +1,54 @@
+svg#hacktoberfest_logo {
+    fill: none;
+    stroke: none;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    transition: all 1s linear;
+}
+
+svg#hacktoberfest_logo g polygon {
+    fill: none;
+    stroke: url(#grad_polygon);
+    stroke-dasharray: 816;
+    stroke-dashoffset: 816;
+    animation: line 5s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-polygon 1s linear forwards 5s;
+}
+
+svg#hacktoberfest_logo g path {
+    fill: none;
+    stroke: url(#grad_path);
+    fill-rule: evenodd;
+    stroke-dasharray: 2416;
+    stroke-dashoffset: 2416;
+    animation: line 10s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-path 1s linear forwards 5s;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill-polygon {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: #fafafa;
+    }
+}
+
+@keyframes fill-path {
+    0% {
+        fill: transparent;
+        stroke: url(#grad_path);
+    }
+    100% {
+        fill: url(#grad_path);
+        stroke: transparent;
+    }
+}

@@ -1,0 +1,38 @@
+svg#boat_logo {
+    fill: none;
+    stroke: #ed1b24;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    animation: fill 0.6s linear forwards 3s;
+}
+
+svg#boat_logo g polygon:nth-child(1) {
+    stroke-dasharray: 706;
+    stroke-dashoffset: 706;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+svg#boat_logo g polygon:nth-child(2) {
+    stroke-dasharray: 742;
+    stroke-dashoffset: 742;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+        stroke: #ed1b24;
+    }
+    100% {
+        fill: #ed1b24;
+        stroke: transparent;
+    }
+}

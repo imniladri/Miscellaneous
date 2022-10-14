@@ -1,0 +1,36 @@
+svg#adobe_logo {
+    fill: none;
+    stroke: url(#grad);
+    stroke-width: 0.6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    transition: all 1s linear;
+    animation: fill 1s ease forwards 2.5s;
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+        stroke: url(#grad);
+    }
+    100% {
+        fill: url(#grad);
+        stroke: transparent;
+    }
+}
+
+svg#adobe_logo path {
+    stroke-dasharray: 140;
+    stroke-dashoffset: 140;
+    animation: line 4s ease forwards;
+}
+
+@keyframes line {
+    0% {
+        stroke-dasharray: 70;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

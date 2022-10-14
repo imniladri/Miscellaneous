@@ -1,0 +1,10 @@
+<svg version="1.1" id="udemy_logo" xmlns="http://www.w3.org/2000/svg" viewBox="-3 -3 50 90">
+    <style>
+        @import url(style.css);
+    </style>
+    <title>Udemy Logo</title>
+    <g>
+        <polygon points="43.82 12.56 22.07 0 0.32 12.56 0.32 25.11 22.07 12.56 43.82 25.11 43.82 12.56" />
+        <path d="M560.89,122.66v27.56c0,8.72-7.06,14.78-15.78,14.78h-.45c-8.72,0-15.79-6.06-15.79-14.78V122.66" transform="translate(-522.87 -87)" />
+    </g>
+</svg>

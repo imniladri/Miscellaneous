@@ -1,0 +1,32 @@
+svg#cadbury_logo {
+    fill: none;
+    stroke: #cbb386;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    animation: fill 0.6s linear forwards 6.5s;
+}
+
+svg#cadbury_logo g path {
+    stroke-dasharray: 4172;
+    stroke-dashoffset: 4172;
+    animation: line 8s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+        stroke: #cbb386;
+    }
+    100% {
+        fill: #cbb386;
+        stroke: transparent;
+    }
+}

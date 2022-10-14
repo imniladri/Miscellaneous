@@ -1,0 +1,46 @@
+svg#marvel_logo {
+    stroke-width: 1.5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+svg#marvel_logo g rect {
+    width: 0%;
+    height: 100%;
+    fill: #ec1d24;
+    stroke: none;
+    animation: width 0.8s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+svg#marvel_logo g path {
+    fill: none;
+    stroke: #fefefe;
+    stroke-dasharray: 1012;
+    stroke-dashoffset: 1012;
+    animation: line 8s cubic-bezier(0.37, 0, 0.63, 1) forwards 1s,
+        fill-path 0.6s linear forwards 7s;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes width {
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes fill-path {
+    0% {
+        fill: transparent;
+        stroke: #fefefe;
+    }
+    100% {
+        fill: #fefefe;
+        stroke: transparent;
+    }
+}

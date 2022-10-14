@@ -1,0 +1,12 @@
+<svg version="1.1" id="microsoft_logo" xmlns="http://www.w3.org/2000/svg" viewBox="-3 -3 138 138">
+    <style>
+        @import url(style.css);
+    </style>
+    <title>Microsoft Logo</title>
+    <g>
+        <rect class="red" x="0.38" y="0.38" width="61.3" height="61.3" />
+        <rect class="green" x="67.07" y="0.38" width="61.3" height="61.3" />
+        <rect class="yellow" x="67.07" y="67.07" width="61.3" height="61.3" />
+        <rect class="blue" x="0.38" y="67.07" width="61.3" height="61.3" />
+    </g>
+</svg>

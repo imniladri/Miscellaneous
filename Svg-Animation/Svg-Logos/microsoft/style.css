@@ -1,0 +1,98 @@
+svg#microsoft_logo {
+    fill: none;
+    stroke: none;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+svg#microsoft_logo rect.red {
+    fill: none;
+    stroke: #f25022;
+    stroke-dasharray: 246;
+    stroke-dashoffset: 246;
+    transform: translate(0, 0) rotateY(0deg);
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-red 1s linear forwards 4s;
+}
+
+svg#microsoft_logo rect.green {
+    fill: none;
+    stroke: #7fba00;
+    stroke-dasharray: 246;
+    stroke-dashoffset: 246;
+    transform: translate(145%, 0) rotateY(180deg);
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-green 1s linear forwards 4s;
+}
+
+svg#microsoft_logo rect.yellow {
+    fill: none;
+    stroke: #ffb900;
+    stroke-dasharray: 246;
+    stroke-dashoffset: 246;
+    transform: translate(145%, 145%) rotate(180deg);
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-yellow 1s linear forwards 4s;
+}
+
+svg#microsoft_logo rect.blue {
+    fill: none;
+    stroke: #00a4ef;
+    stroke-dasharray: 246;
+    stroke-dashoffset: 246;
+    transform: translate(0, 145%) rotateX(180deg);
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-blue 1s linear forwards 4s;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill-red {
+    0% {
+        fill: transparent;
+        stroke-width: 3px;
+    }
+    100% {
+        fill: #f25022;
+        stroke-width: 2px;
+    }
+}
+
+@keyframes fill-green {
+    0% {
+        fill: transparent;
+        stroke-width: 3px;
+    }
+    100% {
+        fill: #7fba00;
+        stroke-width: 2px;
+    }
+}
+
+@keyframes fill-yellow {
+    0% {
+        fill: transparent;
+        stroke-width: 3px;
+    }
+    100% {
+        fill: #ffb900;
+        stroke-width: 2px;
+    }
+}
+
+@keyframes fill-blue {
+    0% {
+        fill: transparent;
+        stroke-width: 3px;
+    }
+    100% {
+        fill: #00a4ef;
+        stroke-width: 2px;
+    }
+}

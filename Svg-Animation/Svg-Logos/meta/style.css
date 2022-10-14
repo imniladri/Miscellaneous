@@ -1,0 +1,35 @@
+svg#meta_logo {
+    fill: none;
+    stroke: #0082fb;
+    /* stroke: url(#grad); */
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    animation: fill 0.6s linear forwards 2.5s;
+}
+
+svg#meta_logo g path {
+    stroke-dasharray: 140;
+    stroke-dashoffset: 140;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+        stroke: #0082fb;
+        /* stroke: url(#grad); */
+    }
+    100% {
+        fill: #0082fb;
+        /* fill: url(#grad); */
+        stroke: transparent;
+    }
+}

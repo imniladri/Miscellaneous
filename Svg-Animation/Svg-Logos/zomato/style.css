@@ -1,0 +1,52 @@
+svg#zomato_logo {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+svg#zomato_logo g path:nth-child(1) {
+    stroke: #e23744;
+    stroke-width: 40px;
+    stroke-dasharray: 6776;
+    stroke-dashoffset: 6776;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-red 0.6s linear forwards 4s;
+}
+
+svg#zomato_logo g path:nth-child(2) {
+    stroke: #ffffff;
+    stroke-width: 20px;
+    stroke-dasharray: 9818;
+    stroke-dashoffset: 9818;
+    animation: line 5s cubic-bezier(0.37, 0, 0.63, 1) forwards 4.5s,
+        fill-white 0.6s linear forwards 6.5s;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill-red {
+    0% {
+        fill: transparent;
+        stroke: #e23744;
+    }
+    100% {
+        fill: #e23744;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-white {
+    0% {
+        fill: transparent;
+        stroke: #ffffff;
+    }
+    100% {
+        fill: #ffffff;
+        stroke: transparent;
+    }
+}

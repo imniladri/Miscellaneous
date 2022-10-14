@@ -1,0 +1,61 @@
+svg#netflix_logo {
+    stroke-width: 8px;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    stroke-miterlimit: 10;
+}
+
+svg#netflix_logo g path.light-center {
+    fill: none;
+    stroke: #e50914;
+    stroke-dasharray: 962;
+    stroke-dashoffset: 962;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards 4s,
+        fill-light 0.6s linear forwards 8s;
+}
+
+svg#netflix_logo g path.dark-left {
+    fill: none;
+    stroke: #b1060f;
+    stroke-dasharray: 912;
+    stroke-dashoffset: 912;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-dark 0.6s linear forwards 4s;
+}
+
+svg#netflix_logo g path.dark-right {
+    fill: none;
+    stroke: #b1060f;
+    stroke-dasharray: 914;
+    stroke-dashoffset: 914;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-dark 0.6s linear forwards 4s;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill-light {
+    0% {
+        fill: transparent;
+        stroke-width: 8px;
+    }
+    100% {
+        fill: #e50914;
+        stroke-width: 4px;
+    }
+}
+
+@keyframes fill-dark {
+    0% {
+        fill: transparent;
+        stroke-width: 8px;
+    }
+    100% {
+        fill: #b1060f;
+        stroke-width: 4px;
+    }
+}

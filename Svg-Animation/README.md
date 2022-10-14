@@ -12,9 +12,9 @@ Awesome SVG animations (Logo or Text) using its path property dashoffset and das
 Title | Preview | Code
 ```
 
-1.  Svg Logo:
-    | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-Logo)
-    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-Logo)
+1.  Svg Logos:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-Logos)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-Logos)
 
 2.  Svg Name:
     | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-Name)

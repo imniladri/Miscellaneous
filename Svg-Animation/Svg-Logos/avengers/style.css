@@ -1,0 +1,39 @@
+svg#avengers_logo {
+    fill: url(#grad_transparent);
+    stroke: url(#grad_stroke);
+    stroke-width: 4px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    transition: all 1s linear;
+    animation: fill 1s linear forwards 4s;
+}
+
+svg#avengers_logo g path:nth-child(1) {
+    stroke-dasharray: 1808;
+    stroke-dashoffset: 1808;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+svg#avengers_logo g path:nth-child(2) {
+    stroke-dasharray: 90;
+    stroke-dashoffset: 90;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    0% {
+        fill: url(#grad_transparent);
+        stroke-width: 4px;
+    }
+    100% {
+        fill: url(#grad_fill);
+        stroke-width: 2px;
+    }
+}

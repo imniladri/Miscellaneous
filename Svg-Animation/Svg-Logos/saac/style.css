@@ -1,0 +1,95 @@
+svg#saac_logo {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+/* ================================================================= */
+
+svg#saac_logo g path.name {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 3px;
+    stroke-dasharray: 1366;
+    stroke-dashoffset: 1366;
+    animation: line 5s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-white 0.6s linear forwards 2.5s;
+}
+
+svg#saac_logo g path.text {
+    fill: #ffffff;
+    stroke: none;
+    stroke-dasharray: 1794;
+    stroke-dashoffset: 1794;
+    clip-path: inset(0 100% 0 0);
+    animation: clipPath 0.4s linear forwards 2.5s;
+}
+
+/* ================================================================= */
+
+svg#saac_logo g path.orange {
+    fill: none;
+    stroke: #f99026;
+    stroke-width: 5px;
+    stroke-dasharray: 1080;
+    stroke-dashoffset: 1080;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-orange 0.6s linear forwards 2.5s;
+}
+
+svg#saac_logo g path.blue {
+    fill: none;
+    stroke: #29c0ef;
+    stroke-width: 5px;
+    stroke-dasharray: 864;
+    stroke-dashoffset: 864;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-blue 0.6s linear forwards 2.5s;
+}
+
+/* ================================================================= */
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes clipPath {
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes fill-white {
+    0% {
+        fill: transparent;
+        stroke: #ffffff;
+    }
+    100% {
+        fill: #ffffff;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-orange {
+    0% {
+        fill: transparent;
+        stroke: #f99026;
+    }
+    100% {
+        fill: #f99026;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-blue {
+    0% {
+        fill: transparent;
+        stroke: #29c0ef;
+    }
+    100% {
+        fill: #29c0ef;
+        stroke: transparent;
+    }
+}

@@ -1,0 +1,34 @@
+svg#leetcode_logo {
+    fill: none;
+    stroke-width: 50px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+svg#leetcode_logo g line:nth-child(1) {
+    stroke: #b3b3b3;
+    stroke-dasharray: 174;
+    stroke-dashoffset: 174;
+    animation: line 0.6s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+svg#leetcode_logo g path:nth-child(2) {
+    stroke: #ffa116;
+    stroke-dasharray: 670;
+    stroke-dashoffset: 670;
+    animation: line 1s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+svg#leetcode_logo g path:nth-child(3) {
+    stroke: #ffffff;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: line 1s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

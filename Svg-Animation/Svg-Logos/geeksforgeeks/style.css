@@ -1,0 +1,20 @@
+svg#geeksforgeeks_logo {
+    fill: none;
+    stroke: #2f8d46;
+    stroke-width: 4.5px;
+    stroke-linecap: square;
+    stroke-linejoin: miter;
+    stroke-miterlimit: 10;
+}
+
+svg#geeksforgeeks_logo g path {
+    stroke-dasharray: 170;
+    stroke-dashoffset: 170;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

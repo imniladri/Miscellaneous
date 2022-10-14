@@ -1,0 +1,11 @@
+<svg version="1.1" id="netflix_logo" xmlns="http://www.w3.org/2000/svg" viewBox="145 65 230 400">
+    <style>
+        @import url(style.css);
+    </style>
+    <title>Netflix Logo</title>
+    <g>
+        <path class="dark-left" d="M229.1,74H153.49l.25,383.21s57.21-5.95,74.51-6.1Z" />
+        <path class="dark-right" d="M289.34,74.3h75.11l-.16,382.89s-53.12-5.5-77.63-6.25Z" />        
+        <path class="light-center" d="M153.49,74H229L364.26,457.13s-41.94-4.54-77.58-6.25Z" />
+    </g>
+</svg>

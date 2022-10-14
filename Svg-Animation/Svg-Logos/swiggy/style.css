@@ -1,0 +1,32 @@
+svg#swiggy_logo {
+    fill: none;
+    stroke: #fc8019;
+    stroke-width: 60px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    animation: fill 0.6s linear forwards 5s;
+}
+
+svg#swiggy_logo g path {
+    stroke-dasharray: 14978;
+    stroke-dashoffset: 14978;
+    animation: line 5s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+        stroke: #fc8019;
+    }
+    100% {
+        fill: #fc8019;
+        stroke: transparent;
+    }
+}

@@ -1,0 +1,95 @@
+svg#google_logo {
+    fill: none;
+    stroke: none;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    transition: all 1s linear;
+}
+
+svg#google_logo path.red {
+    fill: none;
+    stroke: #f14336;
+    stroke-dasharray: 948;
+    stroke-dashoffset: 948;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-red 1s linear forwards 4s;
+}
+
+svg#google_logo path.blue {
+    fill: none;
+    stroke: #518ef8;
+    stroke-dasharray: 974;
+    stroke-dashoffset: 974;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-blue 1s linear forwards 4s;
+}
+
+svg#google_logo path.green {
+    fill: none;
+    stroke: #28b446;
+    stroke-dasharray: 932;
+    stroke-dashoffset: 932;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-green 1s linear forwards 4s;
+}
+
+svg#google_logo path.yellow {
+    fill: none;
+    stroke: #fbbb00;
+    stroke-dasharray: 570;
+    stroke-dashoffset: 570;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-yellow 1s linear forwards 4s;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill-red {
+    0% {
+        fill: transparent;
+        stroke: #f14336;
+    }
+    100% {
+        fill: #f14336;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-blue {
+    0% {
+        fill: transparent;
+        stroke: #518ef8;
+    }
+    100% {
+        fill: #518ef8;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-green {
+    0% {
+        fill: transparent;
+        stroke: #28b446;
+    }
+    100% {
+        fill: #28b446;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-yellow {
+    0% {
+        fill: transparent;
+        stroke: #fbbb00;
+    }
+    100% {
+        fill: #fbbb00;
+        stroke: transparent;
+    }
+}

@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: var(--darkblack);
+    font-family: "Outfit", sans-serif;
+}
+
+/* ************************************************** */
+
+html {
+    font-size: 62.5%;
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+/* ************************************************** */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--darkwhite);
+}
+::-webkit-scrollbar-track {
+    background: var(--darkgrey);
+}
+
+:root {
+    --darkblack: #181a20;
+    --lightblack: #1f222b;
+
+    --darkgrey: #3a3f50;
+    --lightgrey: #d3e0ea;
+
+    --darkwhite: #ffffff;
+    --lightwhite: #feffff;
+}
+
+/* ************************************************** */
+
+main {
+    margin: auto;
+    padding: 2rem 6rem;
+    position: relative;
+}
+
+main h1 {
+    margin: 2rem 0;
+    margin-left: 1rem;
+    padding: 1rem;
+    font-size: 3.5rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: var(--lightblack);
+    background: var(--lightwhite);
+    letter-spacing: 1.2px;
+    text-align: left;
+    border-radius: 2px;
+}
+
+/* ************************************************** */
+
+section {
+    margin: 4rem auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+section h2 {
+    margin: 2rem 0;
+    margin-left: 1rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: var(--lightblack);
+    background: var(--lightwhite);
+    letter-spacing: 0.6px;
+    text-align: left;
+    border-radius: 2px;
+}
+
+section div.svgDiv {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fill, 28rem);
+    justify-content: space-between;
+    align-items: start;
+    justify-items: center;
+    align-content: center;
+    gap: 4rem;
+}
+
+section div.svgDiv div.svgContent {
+    margin: auto;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    width: 24rem;
+    height: 24rem;
+    background: var(--lightblack);
+    border: 4px solid var(--darkgrey);
+    border-radius: 6px;
+}
+
+/* ************************************************** */
+
+div.svgDiv div.svgContent object {
+    position: absolute;
+    margin: auto;
+    margin-bottom: 3rem;
+    width: var(--width);
+    height: auto;
+    user-select: none;
+}
+
+/* ************************************************** */
+
+div.svgDiv div.svgContent h4 {
+    position: absolute;
+    bottom: 20px;
+    margin: auto;
+    font-size: 2rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: var(--lightwhite);
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: default;
+    transition: all 0.2s ease-in-out;
+}
+
+/* ************************************************** */
+
+div.svgDiv div.svgContent a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 6px 7px 8px;
+    font-size: 2rem;
+    color: var(--lightgrey);
+    background: var(--darkgrey);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+div.svgDiv div.svgContent a:hover {
+    color: var(--lightblack);
+    background: var(--lightwhite);
+}
+
+/* ************************************************** */
+
+div.svgDiv div.svgContent i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 6px 7px 8px;
+    font-size: 2rem;
+    color: var(--lightgrey);
+    background: var(--darkgrey);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+div.svgDiv div.svgContent i:hover {
+    color: var(--lightblack);
+    background: var(--lightwhite);
+}

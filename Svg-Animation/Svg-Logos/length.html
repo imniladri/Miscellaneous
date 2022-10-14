@@ -1,0 +1,10 @@
+<!-- Paste your SVG Code Here -->
+
+
+<!-- Get SVG File Path length -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    for (var i = 0; i < $("svg path").length; i++) {
+        console.log(`Letter ${i} is ${$("svg path")[i].getTotalLength()}`);
+    }
+</script>

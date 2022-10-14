@@ -1,0 +1,153 @@
+svg#edc_logo {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+/* ======================================== */
+
+svg#edc_logo g circle.bg {
+    fill: none;
+    stroke: #9e003a;
+    stroke-width: 6px;
+    stroke-dasharray: 1352;
+    stroke-dashoffset: 1352;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards,
+        fill-light 0.6s linear forwards 3s;
+}
+
+/* ======================================== */
+
+svg#edc_logo g path.shadow {
+    opacity: 0;
+    fill: #4e1027;
+    stroke: none;
+    stroke-dasharray: 1124;
+    stroke-dashoffset: 1124;
+    animation: opacity 0.6s linear forwards 4s;
+}
+
+/* ==================== E ==================== */
+
+svg#edc_logo g g#E path:nth-child(1) {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 6px;
+    stroke-dasharray: 1530;
+    stroke-dashoffset: 1530;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards 5s,
+        fill-white 0.6s linear forwards 9s;
+}
+
+svg#edc_logo g g#E path:nth-child(2) {
+    fill: none;
+    stroke: #4e1027;
+    stroke-width: 6px;
+    stroke-dasharray: 478;
+    stroke-dashoffset: 478;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards 9.5s,
+        fill-dark 0.6s linear forwards 12.5s;
+}
+
+svg#edc_logo g g#E path:nth-child(3) {
+    fill: none;
+    stroke: #4e1027;
+    stroke-width: 6px;
+    stroke-dasharray: 224;
+    stroke-dashoffset: 224;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards 9.5s,
+        fill-dark 0.6s linear forwards 12.5s;
+}
+
+/* ==================== C ==================== */
+
+svg#edc_logo g g#C polygon:nth-child(1) {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 4px;
+    stroke-dasharray: 222;
+    stroke-dashoffset: 222;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards 13s,
+        fill-white 0.6s linear forwards 16s;
+}
+
+svg#edc_logo g g#C polygon:nth-child(2) {
+    fill: none;
+    stroke: #4e1027;
+    stroke-width: 4px;
+    stroke-dasharray: 66;
+    stroke-dashoffset: 66;
+    animation: line 2s cubic-bezier(0.37, 0, 0.63, 1) forwards 16s,
+        fill-dark 0.6s linear forwards 18s;
+}
+
+/* ==================== L1 ==================== */
+
+svg#edc_logo g g#L1 path {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 4px;
+    stroke-dasharray: 230;
+    stroke-dashoffset: 230;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards 18.5s,
+        fill-white 0.6s linear forwards 21.5s;
+}
+
+/* ==================== L2 ==================== */
+
+svg#edc_logo g g#L2 path {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 4px;
+    stroke-dasharray: 230;
+    stroke-dashoffset: 230;
+    animation: line 3s cubic-bezier(0.37, 0, 0.63, 1) forwards 19s,
+        fill-white 0.6s linear forwards 22s;
+}
+
+/* ======================================== */
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes opacity {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fill-light {
+    0% {
+        fill: transparent;
+        stroke: #9e003a;
+    }
+    100% {
+        fill: #9e003a;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-dark {
+    0% {
+        fill: transparent;
+        stroke: #4e1027;
+    }
+    100% {
+        fill: #4e1027;
+        stroke: transparent;
+    }
+}
+
+@keyframes fill-white {
+    0% {
+        fill: transparent;
+        stroke: #ffffff;
+    }
+    100% {
+        fill: #ffffff;
+        stroke: transparent;
+    }
+}

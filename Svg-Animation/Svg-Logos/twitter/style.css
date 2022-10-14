@@ -1,0 +1,32 @@
+svg#twitter_logo {
+    fill: none;
+    stroke: #1d9bf0;
+    stroke-width: 4px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    animation: fill 0.6s linear forwards 4s;
+}
+
+svg#twitter_logo g path {
+    stroke-dasharray: 1042;
+    stroke-dashoffset: 1042;
+    animation: line 4s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+@keyframes line {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+        stroke: #1d9bf0;
+    }
+    100% {
+        fill: #1d9bf0;
+        stroke: transparent;
+    }
+}
