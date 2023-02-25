@@ -39,3 +39,7 @@ Title | Preview | Code
 7.  Svg Apple Hello:
     | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-Apple-Hello)
     | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-Apple-Hello)
+
+8.  Svg Jeclat:
+    | [Preview](https://imniladri.github.io/Miscellaneous/Svg-Animation/Svg-Jeclat)
+    | [Code](https://github.com/imniladri/Miscellaneous/tree/main/Svg-Animation/Svg-Jeclat)
